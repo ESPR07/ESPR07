@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm Sindre Strømsæther Derås, lively and excited developer aways striving to learn new things!🌱
+I'm Sindre Strømsæther Derås, lively and excited developer always striving to learn new things!🌱
 On the side I love to read books, excercise and play video games and I'm currently a student at Noroff University College on a Front End course.
 I love coding and have always had a passion for everything IT and is looking for a future in the field.
 
