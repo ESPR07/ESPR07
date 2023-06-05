@@ -132,10 +132,6 @@ body {
   gap: 20px;
 }
 
-.projectCard:hover {
-  cursor: pointer;
-}
-
 .active {
   background-color: var(--textHighlight);
 }
@@ -150,6 +146,19 @@ body {
   max-width: 900px;
   margin-right: 20px;
   float: left;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard h3 {
+  margin-bottom: 0;
+}
+
+.projectCard:hover {
+  cursor: pointer;
 }
 
 .projectCard:last-child {
