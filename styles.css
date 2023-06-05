@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "openSans";
+  src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+  --backgroundColorMain: rgba(44, 53, 49, 1);
+  --backgroundColorContent: rgba(217, 176, 140, 1);
+  --textColorMain: rgba(209, 232, 226, 1);
+  --textHighlight: rgba(17, 100, 102, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--backgroundColorContent);
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "openSans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutMe {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  padding-inline: 10%;
+}
+
+.aboutMe img {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.aboutMe h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  margin-inline: 20px;
+}
+
+.techImage {
+  margin-right: 20px;
+}
+
+.techStacks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.techIcon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+}
+
+#HTML5 {
+  background-image: url(/images/html.svg);
+}
+
+#CSS3 {
+  background-image: url(/images/css.svg);
+}
+
+#JS {
+  background-image: url(/images/JavaScript.svg);
+}
+
+#figma {
+  background-image: url(/images/Figma.svg);
+}
+
+#wordpress {
+  background-image: url(/images/wordpress.svg);
+}
+
+.aboutText {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.generalInfo {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--backgroundColorMain);
+  color: var(--textColorMain);
+  padding-inline: 20px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 100vh;
+}
+
+.infoCard {
+  width: 100%;
+  padding-inline: 20px;
+  border-right: 2px solid black;
+}
+
+.infoCard:first-child {
+  padding-left: 0;
+}
+
+.infoCard:last-child {
+  border: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--backgroundColorMain);
+  color: var(--textColorMain);
+  padding-inline: 20px;
+  margin-top: 100vh;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.projectCard:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--textHighlight);
+}
+
+.selectedProject {
+  background-color: var(--textHighlight);
+  padding-bottom: 10px;
+}
+
+.projects img {
+  width: 100%;
+  max-width: 900px;
+  margin-right: 20px;
+  float: left;
+}
+
+.projectCard:last-child {
+  border: none;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
