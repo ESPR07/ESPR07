@@ -9,58 +9,110 @@ function currentAge(yearOfBirth) {
 
 currentAge(1996);
 
-const rainydaysLive = "https://rainydays-test-espr.netlify.app/";
-const cmsLive = "https://noroff-semester-project-1-sindre.netlify.app/";
-const techpostLive = "https://techpost-projectexam.netlify.app/";
+import { projects } from "./components/projectContent.js";
 
-const rainydaysRepo =
-  "https://github.com/ESPR07/Cross-Course-Assignment-Noroff";
-const cmsRepo = "https://github.com/ESPR07/Noroff-Semester-Project-1";
-const techpostRepo = "https://github.com/ESPR07/Project-Exam-1";
+const cardContainer = document.querySelector(".cardContainer");
+const selectedProject = document.querySelector(".selectedProject");
+
+function renderCards(array) {
+  array.forEach(({ name, shortName, image, alt, shortContent }) => {
+    const cardDiv = document.createElement("div");
+    cardDiv.classList.add("projectCard");
+    cardDiv.classList.add(shortName);
+    cardContainer.append(cardDiv);
+
+    const cardImage = document.createElement("img");
+    cardImage.src = image;
+    cardImage.alt = alt;
+    cardDiv.append(cardImage);
+
+    const cardHeader = document.createElement("h3");
+    cardHeader.innerText = name;
+    cardDiv.append(cardHeader);
+
+    const cardShortContent = document.createElement("p");
+    cardShortContent.innerText = shortContent;
+    cardDiv.append(cardShortContent);
+  });
+}
+
+function renderCurrent(array) {
+  const currentImage = document.createElement("img");
+  currentImage.src = array.image;
+  currentImage.alt = array.alt;
+  currentImage.classList.add("selectedImage");
+  selectedProject.append(currentImage);
+
+  const currentHeader = document.createElement("h3");
+  currentHeader.innerText = array.name;
+  currentHeader.classList.add("selectedTitle");
+  selectedProject.append(currentHeader);
+
+  const currentText = document.createElement("p");
+  currentText.innerText = array.content;
+  currentText.classList.add("selectedText");
+  selectedProject.append(currentText);
+
+  const buttonDiv = document.createElement("div");
+  buttonDiv.classList.add("buttonContainer");
+  selectedProject.append(buttonDiv);
+
+  const repoButton = document.createElement("a");
+  repoButton.innerText = "Repository";
+  repoButton.href = array.repository;
+  repoButton.title = "Link to the repository";
+  buttonDiv.append(repoButton);
+
+  const liveButton = document.createElement("a");
+  liveButton.innerText = "Live Site";
+  liveButton.href = array.liveSite;
+  liveButton.title = "Link to the Live Site";
+  buttonDiv.append(liveButton);
+}
+
+function renderHTML() {
+  renderCards(projects);
+  renderCurrent(projects[0]);
+}
+
+renderHTML();
 
 const rainydaysCard = document.querySelector(".rainydays");
-const cmsCard = document.querySelector(".CMS");
+const cmsCard = document.querySelector(".cms");
 const techpostCard = document.querySelector(".techpost");
+const arrow = document.querySelector(".arrowButton");
+const xIcon = document.querySelector(".xIcon");
 
 rainydaysCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
   techpostCard.classList.remove("active");
   rainydaysCard.classList.add("active");
-  renderSelectedProject("rainydays", rainydaysRepo, rainydaysLive);
+  selectedProject.innerHTML = "";
+  renderCurrent(projects[0]);
 });
 
 cmsCard.addEventListener("click", () => {
   cmsCard.classList.add("active");
   techpostCard.classList.remove("active");
   rainydaysCard.classList.remove("active");
-  renderSelectedProject("cms", cmsRepo, cmsLive);
+  selectedProject.innerHTML = "";
+  renderCurrent(projects[1]);
 });
 
 techpostCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
   techpostCard.classList.add("active");
   rainydaysCard.classList.remove("active");
-  renderSelectedProject("techpost", techpostRepo, techpostLive);
+  selectedProject.innerHTML = "";
+  renderCurrent(projects[2]);
 });
 
-function renderSelectedProject(project, repo, liveSite) {
-  let selectedImage = document.querySelector(".selectedImage");
-  let selectedTitle = document.querySelector(".selectedTitle");
-  let selectedText = document.querySelector(".selectedText");
-  const repoButton = document.querySelector(".repoButton");
-  const liveButton = document.querySelector(".liveButton");
+arrow.addEventListener("click", () => {
+  let destination = document.querySelector(".projects");
 
-  selectedImage.src = document.querySelector("." + project + "Image").src;
-  selectedImage.alt = "Screenshot of project";
-  selectedTitle.innerText = document.querySelector(
-    "." + project + "Heading"
-  ).innerText;
-  selectedText.innerText = document.querySelector(
-    "." + project + "Text"
-  ).innerText;
+  destination.scrollIntoView();
+});
 
-  repoButton.href = repo;
-  repoButton.title = "Link to the repository";
-  liveButton.href = liveSite;
-  liveButton.title = "Link to the Live Site";
-}
+xIcon.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});

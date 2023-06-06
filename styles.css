@@ -88,38 +88,46 @@ body {
   line-height: 2.4rem;
 }
 
-.generalInfo {
-  display: flex;
-  justify-content: space-around;
+.arrowButton {
+  height: 50px;
+  width: 100px;
   background-color: var(--backgroundColorMain);
-  color: var(--textColorMain);
-  padding-inline: 20px;
-  border-radius: 20px 20px 0px 0px;
-  margin-top: 100vh;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-image: url(/images/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
 }
 
-.infoCard {
-  width: 100%;
-  padding-inline: 20px;
-  border-right: 2px solid black;
+.arrowButton:hover {
+  cursor: pointer;
 }
 
-.infoCard:first-child {
-  padding-left: 0;
-}
-
-.infoCard:last-child {
-  border: none;
-}
-
-.contact {
+.projectNav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xIcon {
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/xIcon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.xIcon:hover {
+  cursor: pointer;
 }
 
 .projects {
   display: flex;
   flex-direction: column;
+  position: relative;
   min-height: 100vh;
   background-color: var(--backgroundColorMain);
   color: var(--textColorMain);
@@ -141,6 +149,16 @@ body {
   padding-bottom: 10px;
 }
 
+.selectedProject h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.selectedProject p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
 .projects img {
   width: 100%;
   max-width: 900px;
@@ -148,9 +166,14 @@ body {
   float: left;
 }
 
+.active img {
+  filter: blur(2px);
+}
+
 .projectCard {
   display: flex;
   flex-direction: column;
+  width: 33.33%;
 }
 
 .projectCard h3 {
@@ -168,4 +191,17 @@ body {
 .buttonContainer {
   display: flex;
   justify-content: space-around;
+}
+
+.buttonContainer a {
+  border: 2px solid var(--textColorMain);
+  padding: 5px;
+  text-decoration: none;
+  color: var(--textColorMain);
+  transition: background-color, color 0.3s;
+}
+
+.buttonContainer a:hover {
+  background-color: var(--textColorMain);
+  color: black;
 }
