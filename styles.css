@@ -50,6 +50,11 @@ body {
   margin-right: 20px;
 }
 
+.techImage p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
 .techStacks {
   display: flex;
   flex-direction: row;
