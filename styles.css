@@ -42,8 +42,8 @@ body {
 
 .aboutContent {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-inline: 20px;
 }
 
 .techImage {
@@ -88,6 +88,15 @@ body {
   line-height: 2.4rem;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contactHeader {
+  font-size: 2rem;
+}
+
 .arrowButton {
   height: 50px;
   width: 100px;
@@ -95,6 +104,7 @@ body {
   position: absolute;
   top: -50px;
   left: 50%;
+  border-radius: 10px 10px 0px 0px;
   background-image: url(/images/arrow.svg);
   background-repeat: no-repeat;
   background-size: 80%;
@@ -140,13 +150,9 @@ body {
   gap: 20px;
 }
 
-.active {
-  background-color: var(--textHighlight);
-}
-
 .selectedProject {
   background-color: var(--textHighlight);
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .selectedProject h3 {
@@ -162,18 +168,25 @@ body {
 .projects img {
   width: 100%;
   max-width: 900px;
-  margin-right: 20px;
   float: left;
-}
-
-.active img {
-  filter: blur(2px);
 }
 
 .projectCard {
   display: flex;
   flex-direction: column;
   width: 33.33%;
+  padding-inline: 10px;
+  padding-top: 10px;
+}
+
+.default:first-child {
+  background-color: var(--textHighlight);
+  filter: blur(2px);
+}
+
+.active {
+  background-color: var(--textHighlight);
+  filter: blur(2px);
 }
 
 .projectCard h3 {
@@ -186,6 +199,10 @@ body {
 
 .projectCard:last-child {
   border: none;
+}
+
+.selectedImage {
+  margin-right: 10px;
 }
 
 .buttonContainer {
@@ -204,4 +221,47 @@ body {
 .buttonContainer a:hover {
   background-color: var(--textColorMain);
   color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutMe {
+    position: relative;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+  }
+
+  .projects {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cardContainer {
+    gap: 0;
+  }
+
+  .projectCard {
+    padding-inline: 10px;
+    padding-top: 10px;
+  }
+
+  .projectNav h2 {
+    margin-left: 10px;
+  }
+
+  .selectedProject {
+    padding-inline: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .arrowButton,
+  .xIcon {
+    display: none;
+  }
+
+  .selectedText {
+    text-align: center;
+  }
 }

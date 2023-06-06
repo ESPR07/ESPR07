@@ -7,7 +7,7 @@ export const projects = [
     shortContent:
       "The rainydays site is an E-commerce assignment that spanned several course of my study.",
     content:
-      "This assignment has been running for several course of this semesterwhere we have added more and more content to it as we go. The assignment given to us was to create a e-commerce page based on 3 folders with content we got to choose from. Through this projectwe've gone through full prototype building proccesses with Figma, coded the whole page from ground up using HTML, CSS and Javascript as well as creating a backend CMS for our site using wordpress. Each of these steps are reflected in the different branches of this repo.",
+      "This assignment has been running for several course of this semester where we have added more and more content to it as we go. The assignment given to us was to create a e-commerce page based on 3 folders with content we got to choose from. Through this project we've gone through full prototype building proccesses with Figma, coded the whole page from ground up using HTML, CSS and Javascript as well as creating a backend CMS for our site using wordpress. Each of these steps are reflected in the different branches of this repo.",
     repository: "https://github.com/ESPR07/Cross-Course-Assignment-Noroff",
     liveSite: "https://rainydays-test-espr.netlify.app/",
   },

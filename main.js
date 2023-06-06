@@ -17,6 +17,7 @@ const selectedProject = document.querySelector(".selectedProject");
 function renderCards(array) {
   array.forEach(({ name, shortName, image, alt, shortContent }) => {
     const cardDiv = document.createElement("div");
+    cardDiv.classList.add("default");
     cardDiv.classList.add("projectCard");
     cardDiv.classList.add(shortName);
     cardContainer.append(cardDiv);
@@ -85,7 +86,9 @@ const xIcon = document.querySelector(".xIcon");
 
 rainydaysCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
+  cmsCard.classList.remove("default");
   techpostCard.classList.remove("active");
+  techpostCard.classList.remove("default");
   rainydaysCard.classList.add("active");
   selectedProject.innerHTML = "";
   renderCurrent(projects[0]);
@@ -94,15 +97,19 @@ rainydaysCard.addEventListener("click", () => {
 cmsCard.addEventListener("click", () => {
   cmsCard.classList.add("active");
   techpostCard.classList.remove("active");
+  techpostCard.classList.remove("default");
   rainydaysCard.classList.remove("active");
+  rainydaysCard.classList.remove("default");
   selectedProject.innerHTML = "";
   renderCurrent(projects[1]);
 });
 
 techpostCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
+  cmsCard.classList.remove("default");
   techpostCard.classList.add("active");
   rainydaysCard.classList.remove("active");
+  rainydaysCard.classList.remove("default");
   selectedProject.innerHTML = "";
   renderCurrent(projects[2]);
 });
