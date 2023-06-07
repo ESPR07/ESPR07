@@ -23,16 +23,15 @@ body {
 }
 
 .aboutMe {
+  box-sizing: border-box;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   top: 0;
   z-index: -1;
   padding-inline: 10%;
-}
-
-.aboutMe img {
-  width: 100%;
-  max-width: 500px;
-  min-width: 300px;
 }
 
 .aboutMe h1 {
@@ -42,17 +41,73 @@ body {
 
 .aboutContent {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .techImage {
   margin-right: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  animation: imageMove 2s 1s forwards, imageReset 0.5 10s forwards;
 }
 
-.techImage p {
+@keyframes imageMove {
+  from {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  to {
+    left: 0%;
+    transform: translate(0%);
+  }
+}
+
+@keyframes imageReset {
+  from {
+    position: absolute;
+  }
+  to {
+    position: static;
+  }
+}
+
+.techImage img {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+  animation-name: imageScale;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes imageScale {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+.stackHeader {
   font-weight: 700;
   font-size: 1.2rem;
+  opacity: 0;
+  animation-name: stackVisible;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes stackVisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .techStacks {
@@ -60,6 +115,20 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5px;
+  opacity: 0;
+  animation-name: stackIconsVisible;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes stackIconsVisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .techIcon {
@@ -91,6 +160,20 @@ body {
 .aboutText {
   font-size: 1.4rem;
   line-height: 2.4rem;
+  opacity: 0;
+  animation-name: showAboutText;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showAboutText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .contact {
@@ -184,13 +267,13 @@ body {
   padding-top: 10px;
 }
 
-.default:first-child {
-  background-color: var(--textHighlight);
-  filter: blur(2px);
-}
-
+.default:first-child,
 .active {
   background-color: var(--textHighlight);
+}
+
+.default:first-child img,
+.active img {
   filter: blur(2px);
 }
 
@@ -229,6 +312,35 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  /*remove animations*/
+
+  .techImage {
+    animation-name: none;
+    position: relative;
+    width: 100%;
+  }
+
+  .techImage img {
+    animation-name: none;
+  }
+
+  .stackHeader {
+    opacity: 1;
+    animation-name: none;
+  }
+
+  .techStacks {
+    opacity: 1;
+    animation-name: none;
+  }
+
+  .aboutText {
+    opacity: 1;
+    animation-name: none;
+  }
+
+  /*Media styling */
+
   .aboutMe {
     position: relative;
   }
@@ -268,5 +380,10 @@ body {
 
   .selectedText {
     text-align: center;
+  }
+
+  .buttonContainer a {
+    background-color: var(--textColorMain);
+    color: black;
   }
 }
