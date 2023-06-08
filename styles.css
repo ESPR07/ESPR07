@@ -22,6 +22,61 @@ body {
   font-family: "openSans", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.contactModal {
+  background-color: var(--backgroundColorMain);
+  color: var(--textColorMain);
+}
+
+.xIconModal {
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/xIcon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  right: 20px;
+}
+
+.modalHeader {
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.contactIcons a {
+  height: 70px;
+  width: 70px;
+}
+
+#mail,
+#linkedIn,
+#github {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#mail {
+  background-image: url(/images/google.svg);
+}
+
+#linkedIn {
+  background-image: url(/images/linkedin.svg);
+}
+
+#github {
+  background-image: url(/images/github.svg);
+}
+
 .aboutMe {
   box-sizing: border-box;
   position: fixed;
@@ -69,7 +124,6 @@ body {
   }
   to {
     position: static;
-    cursor: pointer;
   }
 }
 
@@ -89,6 +143,7 @@ body {
   }
   to {
     width: 50%;
+    cursor: pointer;
   }
 }
 
@@ -161,7 +216,6 @@ body {
 .aboutText {
   display: flex;
   align-items: center;
-  text-align: center;
   font-size: 1.4rem;
   line-height: 2.4rem;
   opacity: 0;
@@ -347,6 +401,7 @@ body {
 
   .aboutMe {
     position: relative;
+    z-index: 0;
   }
 
   .aboutContent {

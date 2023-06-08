@@ -93,6 +93,7 @@ const arrow = document.querySelector(".arrowButton");
 const xIcon = document.querySelector(".xIcon");
 const contactImage = document.querySelector(".contactImage");
 const contactModal = document.querySelector(".contactModal");
+const xIconModal = document.querySelector(".xIconModal");
 
 rainydaysCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
@@ -148,4 +149,8 @@ contactModal.addEventListener("click", (closeModal) => {
   ) {
     contactModal.close();
   }
+});
+
+xIconModal.addEventListener("click", () => {
+  contactModal.close();
 });
