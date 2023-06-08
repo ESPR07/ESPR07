@@ -1,3 +1,4 @@
+/*Age Calculation*/
 const ageContainer = document.querySelector("#age");
 
 function currentAge(yearOfBirth) {
@@ -9,6 +10,7 @@ function currentAge(yearOfBirth) {
 
 currentAge(1996);
 
+/*HTML rendering*/
 import { projects } from "./components/projectContent.js";
 
 const cardContainer = document.querySelector(".cardContainer");
@@ -78,11 +80,13 @@ function renderHTML() {
 
 renderHTML();
 
+/*Click Events*/
 const rainydaysCard = document.querySelector(".rainydays");
 const cmsCard = document.querySelector(".cms");
 const techpostCard = document.querySelector(".techpost");
 const arrow = document.querySelector(".arrowButton");
 const xIcon = document.querySelector(".xIcon");
+const contactImage = document.querySelector(".contactImage");
 
 rainydaysCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");

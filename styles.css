@@ -88,6 +88,7 @@ body {
   }
   to {
     width: 40%;
+    cursor: pointer;
   }
 }
 
@@ -158,6 +159,9 @@ body {
 }
 
 .aboutText {
+  display: flex;
+  align-items: center;
+  text-align: center;
   font-size: 1.4rem;
   line-height: 2.4rem;
   opacity: 0;
