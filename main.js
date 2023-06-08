@@ -46,6 +46,11 @@ function renderCurrent(array) {
   currentImage.classList.add("selectedImage");
   selectedProject.append(currentImage);
 
+  // const embedBrowser = document.createElement("iframe");
+  // embedBrowser.classList.add("selectedImage");
+  // embedBrowser.src = array.liveSite;
+  // selectedProject.append(embedBrowser);
+
   const currentHeader = document.createElement("h3");
   currentHeader.innerText = array.name;
   currentHeader.classList.add("selectedTitle");
@@ -87,6 +92,7 @@ const techpostCard = document.querySelector(".techpost");
 const arrow = document.querySelector(".arrowButton");
 const xIcon = document.querySelector(".xIcon");
 const contactImage = document.querySelector(".contactImage");
+const contactModal = document.querySelector(".contactModal");
 
 rainydaysCard.addEventListener("click", () => {
   cmsCard.classList.remove("active");
@@ -126,4 +132,20 @@ arrow.addEventListener("click", () => {
 
 xIcon.addEventListener("click", () => {
   window.scrollTo(0, 0);
+});
+
+contactImage.addEventListener("click", () => {
+  contactModal.showModal();
+});
+
+contactModal.addEventListener("click", (closeModal) => {
+  const modalDimensions = contactModal.getBoundingClientRect();
+  if (
+    closeModal.clientX < modalDimensions.left ||
+    closeModal.clientX > modalDimensions.right ||
+    closeModal.clientY < modalDimensions.top ||
+    closeModal.clientY > modalDimensions.bottom
+  ) {
+    contactModal.close();
+  }
 });

@@ -69,6 +69,7 @@ body {
   }
   to {
     position: static;
+    cursor: pointer;
   }
 }
 
@@ -87,8 +88,7 @@ body {
     width: 100%;
   }
   to {
-    width: 40%;
-    cursor: pointer;
+    width: 50%;
   }
 }
 
@@ -259,8 +259,6 @@ body {
 
 .projects img {
   width: 100%;
-  max-width: 900px;
-  float: left;
 }
 
 .projectCard {
@@ -295,6 +293,8 @@ body {
 
 .selectedImage {
   margin-right: 10px;
+  max-width: 900px;
+  float: left;
 }
 
 .buttonContainer {
