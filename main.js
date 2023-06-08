@@ -46,11 +46,6 @@ function renderCurrent(array) {
   currentImage.classList.add("selectedImage");
   selectedProject.append(currentImage);
 
-  // const embedBrowser = document.createElement("iframe");
-  // embedBrowser.classList.add("selectedImage");
-  // embedBrowser.src = array.liveSite;
-  // selectedProject.append(embedBrowser);
-
   const currentHeader = document.createElement("h3");
   currentHeader.innerText = array.name;
   currentHeader.classList.add("selectedTitle");
