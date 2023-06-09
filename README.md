@@ -1,7 +1,7 @@
 ### Hi there 👋
-I'm Sindre Strømsæther Derås, lively and excited developer always striving to learn new things!🌱
-On the side I love to read books, excercise and play video games and I'm currently a student at Noroff University College on a Front End course.
-I love coding and have always had a passion for everything IT and is looking for a future in the field.
+Hello! I'm a 27 year old developer living in Norway with a passion and curiosity for anything IT related. I love solving problems and learning new things. Computers have been a passion of mine since I was a kid, everything from building computers physically to experimenting with different coding languages.
+
+In my spare time I also like to go for walks in nature, excercise and play games, so I'm quite a active person I'm currently a student at Noroff University College in a Front-End Course and am really enjoying it, so I will definetly say that I have a hunger to learn more in the field. 
 
 ## 📃 My knowledge (so far)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
