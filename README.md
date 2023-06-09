@@ -11,6 +11,7 @@ In my spare time I also like to go for walks in nature, excercise and play games
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
 
 ## ⭐ My Projects
+- [Portfolio Page](https://sindre-portfolio.netlify.app/)
 - [RainyDays Store Page](https://github.com/ESPR07/Cross-Course-Assignment-Noroff)
 - [Community Science Museum](https://github.com/ESPR07/Noroff-Semester-Project-1)
 - [TechPost](https://github.com/ESPR07/Project-Exam-1)
