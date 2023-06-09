@@ -38,6 +38,10 @@ body {
   right: 20px;
 }
 
+.xIconModal:hover {
+  cursor: pointer;
+}
+
 .modalHeader {
   font-size: 2rem;
   margin: 0;
