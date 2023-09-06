@@ -1,9 +1,9 @@
 ### Hi there 👋
 Hello! I'm a 27 year old developer living in Norway with a passion and curiosity for anything IT related. I love solving problems and learning new things. Computers have been a passion of mine since I was a kid, everything from building computers physically to experimenting with different coding languages.
 
-In my spare time I also like to go for walks in nature, excercise and play games, so I'm quite a active person I'm currently a student at Noroff University College in a Front-End Course and am really enjoying it, so I will definetly say that I have a hunger to learn more in the field. 
+In my spare time I also like to go for walks in nature, excercise and play games. I'm currently a student at Noroff University College in a Front-End Course and am really enjoying it, so I will definetly say that I have a hunger to learn more in the field. 
 
-## 📃 My knowledge (so far)
+## 📃 My Tech Stack
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
