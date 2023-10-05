@@ -217,6 +217,10 @@ body {
   background-image: url(/images/wordpress.svg);
 }
 
+#bootstrap {
+  background-image: url(/images/bootstrap.svg);
+}
+
 .aboutText {
   display: flex;
   align-items: center;
