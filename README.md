@@ -23,6 +23,7 @@ In my spare time I also like to go for walks in nature, excercise and play games
 
 ## ⭐ Highlighted Projects
 - [Portfolio Page](https://sindre-portfolio.netlify.app/)
+- [Eclipsebid Auction](https://eclipsebid.netlify.app)
 - [RainyDays Store Page](https://github.com/ESPR07/Cross-Course-Assignment-Noroff)
 - [Community Science Museum](https://github.com/ESPR07/Noroff-Semester-Project-1)
 - [TechPost](https://github.com/ESPR07/Project-Exam-1)
