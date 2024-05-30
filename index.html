@@ -1,86 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="I'm a curious developer with a lively personality"
-    />
-    <link href="/styles.css" rel="stylesheet" />
-    <script type="module" src="/main.js"></script>
+    <meta name="description" content="Welcome to Sindre's portfolio page!" />
     <title>Sindre Strømsæther Derås</title>
   </head>
   <body>
-    <section class="aboutMe">
-      <h1>Sindre Strømsæther Derås</h1>
-      <div class="aboutContent">
-        <div class="techImage">
-          <img
-            class="contactImage"
-            src="/images/selfie.webp"
-            alt="Image of me"
-          />
-          <p class="stackHeader">Tech Stacks:</p>
-          <div class="techStacks">
-            <div class="techIcon" id="HTML5"></div>
-            <div class="techIcon" id="CSS3"></div>
-            <div class="techIcon" id="JS"></div>
-            <div class="techIcon" id="figma"></div>
-            <div class="techIcon" id="wordpress"></div>
-            <div class="techIcon" id="bootstrap"></div>
-          </div>
-        </div>
-        <div class="aboutText">
-          <dialog class="contactModal">
-            <div class="xIconModal"></div>
-            <p class="modalHeader">
-              Hello There!<br /><br />
-              I would love to help you with all of your developer needs!
-            </p>
-            <div class="contactIcons">
-              <a
-                id="mail"
-                href="mailto: sinder009@gmail.com"
-                title="Send me a mail"
-              ></a>
-              <a
-                id="linkedIn"
-                href="https://www.linkedin.com/in/sindre-str%C3%B8ms%C3%A6ther-der%C3%A5s-212353249/"
-                title="My linkedIn page"
-              ></a>
-              <a
-                id="github"
-                href="https://github.com/ESPR07"
-                title="My Github Page"
-              ></a>
-            </div>
-          </dialog>
-          <p>
-            Hello! I'm a <span id="age"></span> year old developer living in
-            Norway with a passion and curiosity for anything IT related. I love
-            solving problems and learning new things. Computers have been a
-            passion of mine since I was a kid, everything from building
-            computers physically to experimenting with different coding
-            languages.<br /><br />
-            In my spare time I also like to go for walks in nature, excercise
-            and play games, so I'm quite a active person I'm currently a student
-            at Noroff University College in a Front-End Course and am really
-            enjoying it, so I will definetly say that I have a hunger to learn
-            more in the field.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="projects">
-      <div class="arrowButton"></div>
-      <div class="projectNav">
-        <h2>Some of My Projects:</h2>
-        <div class="xIcon"></div>
-      </div>
-      <div class="cardContainer"></div>
-      <div class="selectedProject"></div>
-    </section>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
