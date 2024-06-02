@@ -1,0 +1,240 @@
+.homepageContainer {
+  padding: 20px;
+}
+
+.socials {
+  grid-area: socials;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.socials li {
+  display: flex;
+}
+
+.socials a {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  transition: transform 0.3s ease-in
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+#linkedin {
+  background-image: url("/src/assets/linkedin.svg");
+}
+
+#mail {
+  background-image: url('/src/assets/mail.svg');
+}
+
+#github {
+  background-image: url('/src/assets/github.svg');
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-inline: 50px;
+  margin-bottom: 30px;
+}
+
+.infoContainer img {
+  grid-area: image;
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 150px;
+  min-height: 150px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.infoTextImage {
+  display: grid;
+  grid-template-areas: "textHeader image"
+                       "borderText image";
+  align-items: center;
+}
+
+.infoTextImage h1 {
+  grid-area: textHeader;
+  font-size: clamp(3rem, 6vw, 6rem);
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.textWithBorder {
+  grid-area: borderText;
+  border-left: 3px solid;
+  border-image-source: linear-gradient(to bottom, var(--yellowColor), var(--greenColor));
+  border-image-slice: 1;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1.3rem;
+  max-width: 90%;
+}
+
+.textWithBorder strong {
+  font-size: 2rem;
+}
+
+.skillsLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 13%;
+}
+
+.skillsContainer {
+  display: grid;
+  gap: 50px;
+  margin-left: 10px;
+  grid-template-areas: "skillsHeader skillsHeader"
+                       "design hosting"
+                       "coding coding";
+}
+
+.skillsContainer h2 {
+  grid-area: skillsHeader;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.designContainer {
+  grid-area: design;
+}
+
+.hostingContainer {
+  grid-area: hosting;
+}
+
+.codingContainer {
+  grid-area: coding;
+}
+
+.designContainer h3, .hostingContainer h3, .codingContainer h3  {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.designGrid, .hostingGrid, .codingGrid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  border-right: 5px solid;
+  border-top: 5px solid;
+  border-image-source: linear-gradient(135deg, #E8E375 1%, #1E4F1D 100%);
+  border-image-slice: 1;
+  padding-top: 10px;
+}
+
+.designGrid a, .hostingGrid a, .codingGrid a {
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  transition: transform 0.3s ease-in
+}
+
+.designGrid a:hover, .hostingGrid a:hover, .codingGrid a:hover {
+  transform: scale(1.2);
+}
+
+.projectLinksContainer {
+  width: 25%;
+}
+
+.projectLinksContainer h2 {
+  padding-top: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.projectList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.projectList::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  border-radius: 3px;
+  top: 0;
+  left: 0;
+  border-width: 20px 0 0 20px;
+  background: var(--cornerBordersColor);
+  clip-path: polygon(100% 0%, 100% 5px, 5px 5px, 5px 100%, 0% 100%, 0% 0%);
+}
+
+.projectList li {
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(135deg, #E8E375 1%, #1E4F1D 100%);
+  border-image-slice: 1;
+  margin-top: 20px;
+  font-size: 2rem;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.projectList li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .homepageContainer {
+    width: 100%;
+  }
+
+  .infoContainer {
+    flex-direction: column;
+    margin-inline: 0;
+  }
+
+  .textWithBorder {
+    border-left: 0;
+    padding-left: 0;
+    max-width: 100%;
+  }
+
+  .infoTextImage {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .skillsLinksContainer {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectLinksContainer {
+    width: 100%;
+  }
+}

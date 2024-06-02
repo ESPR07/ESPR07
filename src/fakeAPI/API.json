@@ -1,0 +1,153 @@
+{
+  "info": {
+    "name": "Sindre Strømsæther Derås",
+    "description": "I`m an up and coming front-end developer ready and eager to contribute my knowledge and expertise with front-end tools and content! Reach out for more information about how I can be of service.",
+    "picture": ""
+  },
+  "skills": {
+    "design": [
+      {
+        "skill": "Figma",
+        "logo": "/src/assets/figma.svg",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "skill": "Photoshop",
+        "logo": "/src/assets/photoshop.svg",
+        "link": "https://www.adobe.com/no/products/photoshop.html"
+      },
+      {
+        "skill": "Postman",
+        "logo": "/src/assets/postman.svg",
+        "link": "https://www.postman.com/"
+      }
+    ],
+    "testing": [
+      {
+        "skill": "Netlify",
+        "logo": "/src/assets/netlify.svg",
+        "link": "https://www.netlify.com/"
+      },
+      {
+        "skill": "Wordpress",
+        "logo": "/src/assets/wordpress.svg",
+        "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
+      },
+      {
+        "skill": "Github",
+        "logo": "/src/assets/githubLogo.svg",
+        "link": "https://github.com/"
+      },
+      {
+        "skill": "Jest",
+        "logo": "/src/assets/jest.svg",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "skill": "Cypress",
+        "logo": "/src/assets/cypress.svg",
+        "link": "https://www.cypress.io/"
+      }
+    ],
+    "coding": [
+      {
+        "skill": "Git",
+        "logo": "/src/assets/git.svg",
+        "link": "https://git-scm.com/"
+      },
+      {
+        "skill": "HTML5",
+        "logo": "/src/assets/html5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "skill": "CSS3",
+        "logo": "/src/assets/css3.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "skill": "Javascript",
+        "logo": "/src/assets/javascript.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "skill": "Bootstrap",
+        "logo": "/src/assets/bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "skill": "Sass",
+        "logo": "/src/assets/sass.svg",
+        "link": "https://sass-lang.com/"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "logo": "/src/assets/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "skill": "React",
+        "logo": "/src/assets/react.svg",
+        "link": "https://react.dev/"
+      },
+      {
+        "skill": "Typescript",
+        "logo": "/src/assets/typescript.svg",
+        "link": "https://www.typescriptlang.org/"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Holidaze",
+      "description": "With this I was tasked with making a airbnb competitor",
+      "github": "https://github.com/ESPR07/project-exam-2",
+      "link": "https://holidaze-sindre.netlify.app/",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        }
+      ]
+    },
+    {
+      "title": "Checkout",
+      "description": "This is a store page with a all purpose sale page",
+      "github": "https://github.com/ESPR07/js-framework",
+      "link": "https://checkoutsindre.netlify.app/",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        }
+      ]
+    },
+    {
+      "title": "Eclipsebid",
+      "description": "This is a bidding site",
+      "github": "https://github.com/ESPR07/semester-project-2",
+      "link": "https://eclipsebid.netlify.app/",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "TailwindCSS"
+        },
+        {
+          "skill": "Javascript"
+        }
+      ]
+    }
+  ]
+}
