@@ -1,10 +1,35 @@
 import styles from "./Homepage.module.css";
 import { Page, Response } from "../../App";
 
-function Homepage({setCurrentPage, data} : {setCurrentPage: React.Dispatch<React.SetStateAction<Page>>, data: Response | null}) {
+type Homepage = {
+  setCurrentPage: React.Dispatch<React.SetStateAction<Page>>,
+  data: Response | null,
+  setActiveAnimation: React.Dispatch<React.SetStateAction<boolean>>,
+  setOverflow: React.Dispatch<React.SetStateAction<boolean>>
+}
 
-  function setPage(value: any) {
-    setCurrentPage(value);
+type Value = {
+  page: string,
+    theme: {
+      pageColor: string,
+      buttonColor: string
+    }
+}
+
+function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Homepage) {
+
+  function setPage(value: Value) {
+    setActiveAnimation(true);
+    setOverflow(true);
+
+    setTimeout(() => {
+      setCurrentPage(value);
+      setActiveAnimation(false);
+    }, 1000);
+
+    setTimeout(() => {
+      setOverflow(false)
+    }, 2000);
   }
 
   return (

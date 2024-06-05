@@ -70,6 +70,8 @@ export const defaultPage = {
 function App() {
   const [currentPage, setCurrentPage] = useState<Page>(defaultPage);
   const [data, setData] = useState<Response | null>(null);
+  const [activeAnimation, setActiveAnimation] = useState<boolean>(false);
+  const [overflow, setOverflow] = useState<boolean>(false);
   
   useEffect(() => {
     async function fetchData() {
@@ -92,8 +94,8 @@ function App() {
   if(currentPage.page === "Homepage") {
     return(
       <>
-        <main>
-          <Homepage setCurrentPage={setCurrentPage} data={data} />
+        <main className={`${activeAnimation? 'animation' : ''} ${overflow? 'overflow' : ''}`}>
+          <Homepage setCurrentPage={setCurrentPage} data={data} setActiveAnimation={setActiveAnimation} setOverflow={setOverflow}/>
         </main>
         <p className='author'>Made with passion by Sindre Strømsæther Derås @ 2024</p>
       </>
@@ -103,8 +105,8 @@ function App() {
   if(currentPage.page !== "Homepage") {
     return(
       <>
-        <main>
-          <ProjectPage currentPage={currentPage} data={data} setCurrentPage={setCurrentPage}/>
+        <main className={`${activeAnimation? 'animation' : ''} ${overflow? 'overflow' : ''}`}>
+          <ProjectPage currentPage={currentPage} data={data} setCurrentPage={setCurrentPage} setActiveAnimation={setActiveAnimation} setOverflow={setOverflow}/>
         </main>
         <p className='author'>Made with passion by Sindre Strømsæther Derås @ 2024</p>
       </>

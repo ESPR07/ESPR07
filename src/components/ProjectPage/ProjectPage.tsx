@@ -2,7 +2,15 @@ import { useState } from "react";
 import { Page, Response, defaultPage } from "../../App";
 import styles from "./ProjectPage.module.css";
 
-function ProjectPage({currentPage, data, setCurrentPage} : {currentPage: Page, data: Response | null, setCurrentPage: React.Dispatch<React.SetStateAction<Page>>}) {
+type ProjectPage = {
+  currentPage: Page,
+  data: Response | null,
+  setCurrentPage: React.Dispatch<React.SetStateAction<Page>>,
+  setActiveAnimation: React.Dispatch<React.SetStateAction<boolean>>,
+  setOverflow: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, setOverflow} : ProjectPage) {
   const [isFullScreen, setIsFullScreen] = useState<boolean>(false);
 
   console.log(isFullScreen);
@@ -13,11 +21,25 @@ function ProjectPage({currentPage, data, setCurrentPage} : {currentPage: Page, d
     setIsFullScreen(!isFullScreen);
   }
 
+  function setPage() {
+    setActiveAnimation(true);
+    setOverflow(true);
+
+    setTimeout(() => {
+      setCurrentPage(defaultPage);
+      setActiveAnimation(false);
+    }, 1000);
+
+    setTimeout(() => {
+      setOverflow(false)
+    }, 2000);
+  }
+
   if(filteredData) {
     return(
       <section className={styles.projectContainer}>
         <nav className={styles.topNav}>
-          <button type="button" onClick={() => {setCurrentPage(defaultPage)}}></button>
+          <button type="button" onClick={setPage}></button>
           <ul className={styles.socials}>
             <li>
               <a

@@ -34,7 +34,16 @@ main {
   margin-bottom: 30px;
   margin-top: 30px;
   max-width: 85vw;
-  transition: max-width 1s ease-in;
+  transition: max-width 1s ease-in-out;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.animation {
+  overflow: hidden;
+  max-width: 0vw;
 }
 
 main::before, main::after {
@@ -71,7 +80,6 @@ main::after {
 @media screen and (max-width: 900px) {
   main {
     margin-top: 40px;
-    overflow: auto;
   }
 
   main::before {

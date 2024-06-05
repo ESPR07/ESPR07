@@ -2,6 +2,7 @@
   padding: 20px;
   width: 80%;
   height: 100%;
+  min-width: 1000px;
 }
 
 .topNav {
@@ -193,6 +194,14 @@ iframe {
 }
 
 @media screen and (max-width: 800px) {
+  .projectContainer {
+    min-width: 90%;
+  }
+
+  .fullScreen {
+    width: 95%;
+  }
+
   .bottomSection {
     flex-direction: column;
   }
