@@ -103,6 +103,8 @@
       "description": "With this I was tasked with making a airbnb competitor",
       "github": "https://github.com/ESPR07/project-exam-2",
       "link": "https://holidaze-sindre.netlify.app/",
+      "mainColor": "#8A4630",
+      "buttonColor": "#FC8059",
       "tech": [
         {
           "skill": "Figma"
@@ -120,6 +122,8 @@
       "description": "This is a store page with a all purpose sale page",
       "github": "https://github.com/ESPR07/js-framework",
       "link": "https://checkoutsindre.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
       "tech": [
         {
           "skill": "Figma"
@@ -137,6 +141,8 @@
       "description": "This is a bidding site",
       "github": "https://github.com/ESPR07/semester-project-2",
       "link": "https://eclipsebid.netlify.app/",
+      "mainColor": "#2E1C38",
+      "buttonColor": "#F99417",
       "tech": [
         {
           "skill": "Figma"

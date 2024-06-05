@@ -1,66 +1,11 @@
-import { useEffect, useState } from "react";
 import styles from "./Homepage.module.css";
+import { Page, Response } from "../../App";
 
-type Response = {
-  "info": {
-    "name": string,
-    "description": string,
-    "picture": string,
-  },
-  "skills": {
-    "design": [
-      {
-        "skill": string,
-        "logo": String,
-        "link": string
-      }
-    ],
-    "testing": [
-      {
-        "skill": string,
-        "logo": string,
-        "link": string
-      }
-    ],
-    "coding": [
-      {
-        "skill": string,
-        "logo": string,
-        "link": string
-      }
-    ]
-  },
-  "projects": [
-    {
-      "title": string,
-      "description": string,
-      "github": string,
-      "link": string,
-      "tech": [
-        {
-          "skill": string
-        },
-        {
-          "skill": string
-        },
-        {
-          "skill": string
-        }
-      ]
-    }
-  ]
-}
+function Homepage({setCurrentPage, data} : {setCurrentPage: React.Dispatch<React.SetStateAction<Page>>, data: Response | null}) {
 
-function Homepage() {
-  const [data, setData] = useState<Response | null>(null);
-  useEffect(() => {
-    async function fetchData() {
-      const getData = await fetch("/src/fakeAPI/API.json");
-      const response = await getData.json();
-      setData(response);
-    }
-    fetchData();
-  }, [])
+  function setPage(value: any) {
+    setCurrentPage(value);
+  }
 
   return (
     <section className={styles.homepageContainer}>
@@ -140,8 +85,15 @@ function Homepage() {
             <h2>Projects</h2>
             <ul className={styles.projectList}>
               {data?.projects.map((project) => {
+                const newPage = {
+                  page: project.title,
+                  theme: {
+                    pageColor: project.mainColor,
+                    buttonColor: project.buttonColor
+                  }
+                }
                 return(
-                  <li>{project.title}</li>
+                  <li value={project.title} onClick={() => {setPage(newPage)}}>{project.title}</li>
                 )
               })}
             </ul>
