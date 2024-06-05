@@ -18,6 +18,7 @@ function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, set
   const filteredData = data?.projects.filter((project) => project.title === currentPage.page);
 
   function changeFullscreen() {
+    window.scrollTo(0,0);
     setIsFullScreen(!isFullScreen);
   }
 
