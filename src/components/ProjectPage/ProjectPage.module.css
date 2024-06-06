@@ -15,7 +15,7 @@
 .topNav button {
   height: 50px;
   width: 50px;
-  background-image: url("/src/assets/backArrow.svg");
+  background-image: url("/images/backArrow.svg");
   background-position: center;
   background-size: contain;
   border: none;
@@ -57,15 +57,15 @@
 }
 
 #linkedin {
-  background-image: url("/src/assets/linkedin.svg");
+  background-image: url("/images/linkedin.svg");
 }
 
 #mail {
-  background-image: url('/src/assets/mail.svg');
+  background-image: url('/images/mail.svg');
 }
 
 #github {
-  background-image: url('/src/assets/github.svg');
+  background-image: url('/images/github.svg');
 }
 
 .projectInfo {
@@ -130,11 +130,11 @@ iframe {
 }
 
 .buttonPlus {
-  background-image: url("/src/assets/zoomIn.svg");
+  background-image: url("/images/zoomIn.svg");
 }
 
 .buttonMinus {
-  background-image: url("/src/assets/zoomOut.svg");
+  background-image: url("/images/zoomOut.svg");
 }
 
 .iframeContainer button:hover {

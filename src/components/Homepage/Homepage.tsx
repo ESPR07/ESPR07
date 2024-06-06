@@ -63,7 +63,7 @@ function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Home
             </p>
             <p dangerouslySetInnerHTML={{ __html: formattedDescription }}></p>
           </div>
-          <img src="/src/assets/selfie.webp" className={styles.image} alt="Selfie of me"/>
+          <img src="/images/selfie.webp" className={styles.image} alt="Selfie of me"/>
         </header>
         <section className={styles.skillsLinksContainer}>
           <article className={styles.skillsContainer}>

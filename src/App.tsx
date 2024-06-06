@@ -76,7 +76,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const getData = await fetch("/src/fakeAPI/API.json");
+        const getData = await fetch("/fakeAPI/API.json");
         const response = await getData.json();
         console.log(getData);
         setData(response);

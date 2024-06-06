@@ -32,15 +32,15 @@
 }
 
 #linkedin {
-  background-image: url("/src/assets/linkedin.svg");
+  background-image: url("/images/linkedin.svg");
 }
 
 #mail {
-  background-image: url('/src/assets/mail.svg');
+  background-image: url('/images/mail.svg');
 }
 
 #github {
-  background-image: url('/src/assets/github.svg');
+  background-image: url('/images/github.svg');
 }
 
 .infoContainer {

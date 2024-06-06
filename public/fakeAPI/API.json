@@ -8,91 +8,91 @@
     "design": [
       {
         "skill": "Figma",
-        "logo": "/src/assets/figma.svg",
+        "logo": "/images/figma.svg",
         "link": "https://www.figma.com/"
       },
       {
         "skill": "Photoshop",
-        "logo": "/src/assets/photoshop.svg",
+        "logo": "/images/photoshop.svg",
         "link": "https://www.adobe.com/no/products/photoshop.html"
       },
       {
         "skill": "Postman",
-        "logo": "/src/assets/postman.svg",
+        "logo": "/images/postman.svg",
         "link": "https://www.postman.com/"
       }
     ],
     "testing": [
       {
         "skill": "Netlify",
-        "logo": "/src/assets/netlify.svg",
+        "logo": "/images/netlify.svg",
         "link": "https://www.netlify.com/"
       },
       {
         "skill": "Wordpress",
-        "logo": "/src/assets/wordpress.svg",
+        "logo": "/images/wordpress.svg",
         "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
       },
       {
         "skill": "Github",
-        "logo": "/src/assets/githubLogo.svg",
+        "logo": "/images/githubLogo.svg",
         "link": "https://github.com/"
       },
       {
         "skill": "Jest",
-        "logo": "/src/assets/jest.svg",
+        "logo": "/images/jest.svg",
         "link": "https://jestjs.io/"
       },
       {
         "skill": "Cypress",
-        "logo": "/src/assets/cypress.svg",
+        "logo": "/images/cypress.svg",
         "link": "https://www.cypress.io/"
       }
     ],
     "coding": [
       {
         "skill": "Git",
-        "logo": "/src/assets/git.svg",
+        "logo": "/images/git.svg",
         "link": "https://git-scm.com/"
       },
       {
         "skill": "HTML5",
-        "logo": "/src/assets/html5.svg",
+        "logo": "/images/html5.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         "skill": "CSS3",
-        "logo": "/src/assets/css3.svg",
+        "logo": "/images/css3.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         "skill": "Javascript",
-        "logo": "/src/assets/javascript.svg",
+        "logo": "/images/javascript.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         "skill": "Bootstrap",
-        "logo": "/src/assets/bootstrap.svg",
+        "logo": "/images/bootstrap.svg",
         "link": "https://getbootstrap.com/"
       },
       {
         "skill": "Sass",
-        "logo": "/src/assets/sass.svg",
+        "logo": "/images/sass.svg",
         "link": "https://sass-lang.com/"
       },
       {
         "skill": "Tailwind CSS",
-        "logo": "/src/assets/tailwindcss.svg",
+        "logo": "/images/tailwindcss.svg",
         "link": "https://tailwindcss.com/"
       },
       {
         "skill": "React",
-        "logo": "/src/assets/react.svg",
+        "logo": "/images/react.svg",
         "link": "https://react.dev/"
       },
       {
         "skill": "Typescript",
-        "logo": "/src/assets/typescript.svg",
+        "logo": "/images/typescript.svg",
         "link": "https://www.typescriptlang.org/"
       }
     ]
