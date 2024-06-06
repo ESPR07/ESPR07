@@ -35,11 +35,9 @@ Let's create something amazing together!
 
 ## ⭐ Highlighted Projects
 - [Portfolio Page](https://sindre-portfolio.netlify.app/)
+- [Holidaze Accommodation](https://holidaze-sindre.netlify.app/)
+- [Checkout ecommerse](https://checkoutsindre.netlify.app/)
 - [Eclipsebid Auction](https://eclipsebid.netlify.app)
-- [RainyDays Store Page](https://github.com/ESPR07/Cross-Course-Assignment-Noroff)
-- [Community Science Museum](https://github.com/ESPR07/Noroff-Semester-Project-1)
-- [TechPost](https://github.com/ESPR07/Project-Exam-1)
-- [Random Items of Hyrule](https://github.com/ESPR07/Noroff-Javascript-1-Course-Assignment)
 
 ## 📫 Socials
 <div id="badges">
