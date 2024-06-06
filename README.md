@@ -1,7 +1,9 @@
 ### Hi there 👋
-Hello! I'm a 27 year old developer living in Norway with a passion and curiosity for anything IT related. I love solving problems and learning new things. Computers have been a passion of mine since I was a kid, everything from building computers physically to experimenting with different coding languages.
+I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. 
 
-In my spare time I also like to go for walks in nature, excercise and play games. I'm currently a student at Noroff University College in a Front-End Course and am really enjoying it, so I will definetly say that I have a hunger to learn more in the field. 
+My journey in web development has equipped me with a solid foundation in HTML, CSS, and JavaScript, and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. 
+
+Let's create something amazing together!
 
 ## 📃 My Tech Stack
 ### Design
@@ -11,13 +13,14 @@ In my spare time I also like to go for walks in nature, excercise and play games
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
 ### Coding
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### Content Management Systems
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)

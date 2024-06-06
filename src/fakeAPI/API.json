@@ -1,0 +1,159 @@
+{
+  "info": {
+    "name": "Sindre Strømsæther Derås",
+    "description": "Hi, I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n My journey in web development has equipped me with a solid foundation in HTML, CSS, and JavaScript, and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n Let's create something amazing together!",
+    "picture": ""
+  },
+  "skills": {
+    "design": [
+      {
+        "skill": "Figma",
+        "logo": "/src/assets/figma.svg",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "skill": "Photoshop",
+        "logo": "/src/assets/photoshop.svg",
+        "link": "https://www.adobe.com/no/products/photoshop.html"
+      },
+      {
+        "skill": "Postman",
+        "logo": "/src/assets/postman.svg",
+        "link": "https://www.postman.com/"
+      }
+    ],
+    "testing": [
+      {
+        "skill": "Netlify",
+        "logo": "/src/assets/netlify.svg",
+        "link": "https://www.netlify.com/"
+      },
+      {
+        "skill": "Wordpress",
+        "logo": "/src/assets/wordpress.svg",
+        "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
+      },
+      {
+        "skill": "Github",
+        "logo": "/src/assets/githubLogo.svg",
+        "link": "https://github.com/"
+      },
+      {
+        "skill": "Jest",
+        "logo": "/src/assets/jest.svg",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "skill": "Cypress",
+        "logo": "/src/assets/cypress.svg",
+        "link": "https://www.cypress.io/"
+      }
+    ],
+    "coding": [
+      {
+        "skill": "Git",
+        "logo": "/src/assets/git.svg",
+        "link": "https://git-scm.com/"
+      },
+      {
+        "skill": "HTML5",
+        "logo": "/src/assets/html5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "skill": "CSS3",
+        "logo": "/src/assets/css3.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "skill": "Javascript",
+        "logo": "/src/assets/javascript.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "skill": "Bootstrap",
+        "logo": "/src/assets/bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "skill": "Sass",
+        "logo": "/src/assets/sass.svg",
+        "link": "https://sass-lang.com/"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "logo": "/src/assets/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "skill": "React",
+        "logo": "/src/assets/react.svg",
+        "link": "https://react.dev/"
+      },
+      {
+        "skill": "Typescript",
+        "logo": "/src/assets/typescript.svg",
+        "link": "https://www.typescriptlang.org/"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Holidaze",
+      "description": "Holidaze is my final exam were we tasked with creating a accommodation booking site. All the way from planning the project with a kanban and ghantt board for issues, and timing, to desiging the prototype in figma and lastly develop and deploy the page. The allotted time given was 7 weeks, with a set of user stories that are required to be implemented.",
+      "github": "https://github.com/ESPR07/project-exam-2",
+      "link": "https://holidaze-sindre.netlify.app/",
+      "mainColor": "#8A4630",
+      "buttonColor": "#FC8059",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        }
+      ]
+    },
+    {
+      "title": "Checkout",
+      "description": "Checkout is a ecommerce page we were tasked with creating using React. it was also highly adviced to try out helpful tools like React Hook Form, Styled components, modular CSS and Router DOM to get a feel for what exists out there. My project is built using React, together with Typescript, React Form Hook, and React Router DOM.",
+      "github": "https://github.com/ESPR07/js-framework",
+      "link": "https://checkoutsindre.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        }
+      ]
+    },
+    {
+      "title": "Eclipsebid",
+      "description": "This is the big project for the end of the 1st semester in the last year of my education. I was tasked with creating a fully functional auction page based on a full 'life-like' assignment brief. Among the specifications was a set of user stories I had to fullfil and a list of allowed tools and frameworks. For this project I'm using Tailwind as a CSS Framework and GitHub Projects for planning, as well as Figma for prototype design. The alloted time given to complete the assignment was 6 weeks, but there ended up being a big backlog of features I wanted to add, but ended up not adding due to time constraint and a focus on what was asked for.",
+      "github": "https://github.com/ESPR07/semester-project-2",
+      "link": "https://eclipsebid.netlify.app/",
+      "mainColor": "#2E1C38",
+      "buttonColor": "#F99417",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "TailwindCSS"
+        },
+        {
+          "skill": "Javascript"
+        }
+      ]
+    }
+  ]
+}
