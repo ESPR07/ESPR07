@@ -60,6 +60,7 @@ function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, set
           <div className={styles.iframeContainer} id={isFullScreen? styles.fullScreen : ""}>
             <iframe src={filteredData[0].link} className={isFullScreen? styles.fullScreen : ""}/>
             <button type="button" className={`${styles.fullscreenButton} ${isFullScreen? styles.buttonMinus : styles.buttonPlus}`} onClick={changeFullscreen} title="Fullscreen Button" aria-label="Fullscreen Button"></button>
+            <a href={filteredData[0].github} target="_blank"><button type="button" className={styles.githubButton} title="Open Github" aria-label="Open Github"></button></a>
           </div>
           <section className={styles.bottomSection}>
             <p>{filteredData[0].description}</p>

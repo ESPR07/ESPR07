@@ -115,18 +115,35 @@ iframe {
   left: 0;
 }
 
-.fullscreenButton {
+.iframeContainer button {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
   height: 50px;
   width: 50px;
   background-color: var(--zoomButton);
   background-position: center;
-  background-size: contain;
+  background-repeat: no-repeat;
   border: none;
   border-radius: 3px;
   z-index: 10;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.iframeContainer button:hover {
+  transform: scale(1.2);
+}
+
+.fullscreenButton {
+  background-size: contain;
+  bottom: 20px;
+  right: 20px;
+}
+
+.githubButton {
+  bottom: 20px;
+  right: 80px;
+  background-image: url("/images/githubBlack.svg");
+  background-size: 80%;
 }
 
 .buttonPlus {
