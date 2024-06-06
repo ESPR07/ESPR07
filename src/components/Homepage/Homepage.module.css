@@ -2,7 +2,6 @@
   padding: 20px;
   width: 100%;
   height: 100%;
-  min-width: 1200px;
 }
 
 .socials {
@@ -52,7 +51,7 @@
   margin-bottom: 30px;
 }
 
-.infoContainer img {
+.infoTextImage img {
   grid-area: image;
   max-width: 250px;
   max-height: 250px;
