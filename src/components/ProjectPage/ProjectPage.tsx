@@ -12,8 +12,6 @@ type ProjectPage = {
 
 function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, setOverflow} : ProjectPage) {
   const [isFullScreen, setIsFullScreen] = useState<boolean>(false);
-
-  console.log(isFullScreen);
   
   const filteredData = data?.projects.filter((project) => project.title === currentPage.page);
 
