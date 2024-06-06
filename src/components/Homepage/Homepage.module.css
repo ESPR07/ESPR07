@@ -53,8 +53,8 @@
 
 .infoTextImage img {
   grid-area: image;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 15vw;
+  max-height: 15vw;
   min-width: 150px;
   min-height: 150px;
   width: 100%;
@@ -225,6 +225,11 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+
+  .infoTextImage img {
+    max-width: 200px;
+    max-height: 200px;
   }
 
   .skillsLinksContainer {
