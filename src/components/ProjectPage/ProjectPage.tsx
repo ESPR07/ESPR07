@@ -29,18 +29,18 @@ function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, set
     setTimeout(() => {
       setCurrentPage(defaultPage);
       setActiveAnimation(false);
-    }, 1000);
+    }, 500);
 
     setTimeout(() => {
       setOverflow(false)
-    }, 2000);
+    }, 1000);
   }
 
   if(filteredData) {
     return(
       <section className={styles.projectContainer}>
         <nav className={styles.topNav}>
-          <button type="button" onClick={setPage}></button>
+          <button type="button" onClick={setPage} title="Back Button" aria-label="Back Button"></button>
           <ul className={styles.socials}>
             <li>
               <a
@@ -61,7 +61,7 @@ function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, set
           <h1>{filteredData[0].title}</h1>
           <div className={styles.iframeContainer} id={isFullScreen? styles.fullScreen : ""}>
             <iframe src={filteredData[0].link} className={isFullScreen? styles.fullScreen : ""}/>
-            <button type="button" className={`${styles.fullscreenButton} ${isFullScreen? styles.buttonMinus : styles.buttonPlus}`} onClick={() => {changeFullscreen()}}></button>
+            <button type="button" className={`${styles.fullscreenButton} ${isFullScreen? styles.buttonMinus : styles.buttonPlus}`} onClick={changeFullscreen} title="Fullscreen Button" aria-label="Fullscreen Button"></button>
           </div>
           <section className={styles.bottomSection}>
             <p>{filteredData[0].description}</p>

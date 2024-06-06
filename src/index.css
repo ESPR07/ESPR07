@@ -34,7 +34,7 @@ main {
   margin-bottom: 30px;
   margin-top: 30px;
   max-width: 85vw;
-  transition: max-width 1s ease-in-out;
+  transition: max-width 0.5s ease-in-out;
 }
 
 .overflow {

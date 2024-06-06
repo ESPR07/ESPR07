@@ -25,12 +25,15 @@ function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Home
     setTimeout(() => {
       setCurrentPage(value);
       setActiveAnimation(false);
-    }, 1000);
+    }, 500);
 
     setTimeout(() => {
       setOverflow(false)
-    }, 2000);
+    }, 1000);
   }
+
+  const description = data?.info.description;
+  const formattedDescription = description ? description.replace(/\n/g, '<br><br>') : '';
 
   return (
     <section className={styles.homepageContainer}>
@@ -58,9 +61,9 @@ function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Home
             <p>
               My name is <br /> <strong>{data?.info.name}</strong>
             </p>
-            <p>{data?.info.description}</p>
+            <p dangerouslySetInnerHTML={{ __html: formattedDescription }}></p>
           </div>
-          <img src="/src/assets/Selfie.jpg" className={styles.image} />
+          <img src="/src/assets/Selfie.jpg" className={styles.image} alt="Selfie of me"/>
         </header>
         <section className={styles.skillsLinksContainer}>
           <article className={styles.skillsContainer}>

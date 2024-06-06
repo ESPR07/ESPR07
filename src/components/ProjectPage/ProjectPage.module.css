@@ -148,12 +148,13 @@ iframe {
 
 .bottomSection p {
   font-size: 1.5rem;
+  max-width: 70%;
+  margin-block: 50px;
 }
 
 .projectStackContainer {
   width: 25%;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-block: 50px;
 }
 
 .projectStackContainer h2 {
@@ -205,6 +206,10 @@ iframe {
 
   .bottomSection {
     flex-direction: column;
+  }
+
+  .bottomSection p {
+    max-width: 100%;
   }
 
   .projectStackContainer {

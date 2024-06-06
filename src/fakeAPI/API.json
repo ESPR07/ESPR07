@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Sindre Strømsæther Derås",
-    "description": "I`m an up and coming front-end developer ready and eager to contribute my knowledge and expertise with front-end tools and content! Reach out for more information about how I can be of service.",
+    "description": "Hi, I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n My journey in web development has equipped me with a solid foundation in HTML, CSS, and JavaScript, and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n Let's create something amazing together!",
     "picture": ""
   },
   "skills": {
@@ -100,7 +100,7 @@
   "projects": [
     {
       "title": "Holidaze",
-      "description": "With this I was tasked with making a airbnb competitor",
+      "description": "Holidaze is my final exam were we tasked with creating a accommodation booking site. All the way from planning the project with a kanban and ghantt board for issues, and timing, to desiging the prototype in figma and lastly develop and deploy the page. The allotted time given was 7 weeks, with a set of user stories that are required to be implemented.",
       "github": "https://github.com/ESPR07/project-exam-2",
       "link": "https://holidaze-sindre.netlify.app/",
       "mainColor": "#8A4630",
@@ -119,7 +119,7 @@
     },
     {
       "title": "Checkout",
-      "description": "This is a store page with a all purpose sale page",
+      "description": "Checkout is a ecommerce page we were tasked with creating using React. it was also highly adviced to try out helpful tools like React Hook Form, Styled components, modular CSS and Router DOM to get a feel for what exists out there. My project is built using React, together with Typescript, React Form Hook, and React Router DOM.",
       "github": "https://github.com/ESPR07/js-framework",
       "link": "https://checkoutsindre.netlify.app/",
       "mainColor": "#2E4F4F",
@@ -138,7 +138,7 @@
     },
     {
       "title": "Eclipsebid",
-      "description": "This is a bidding site",
+      "description": "This is the big project for the end of the 1st semester in the last year of my education. I was tasked with creating a fully functional auction page based on a full 'life-like' assignment brief. Among the specifications was a set of user stories I had to fullfil and a list of allowed tools and frameworks. For this project I'm using Tailwind as a CSS Framework and GitHub Projects for planning, as well as Figma for prototype design. The alloted time given to complete the assignment was 6 weeks, but there ended up being a big backlog of features I wanted to add, but ended up not adding due to time constraint and a focus on what was asked for.",
       "github": "https://github.com/ESPR07/semester-project-2",
       "link": "https://eclipsebid.netlify.app/",
       "mainColor": "#2E1C38",
