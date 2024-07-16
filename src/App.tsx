@@ -78,7 +78,6 @@ function App() {
       try {
         const getData = await fetch("/fakeAPI/API.json");
         const response = await getData.json();
-        console.log(getData);
         setData(response);
       } catch (error) {
         console.log(error);
