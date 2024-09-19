@@ -91,6 +91,11 @@
         "link": "https://react.dev/"
       },
       {
+        "skill": "React Native",
+        "logo": "/images/reactNative.svg",
+        "link": "https://reactnative.dev/"
+      },
+      {
         "skill": "Typescript",
         "logo": "/images/typescript.svg",
         "link": "https://www.typescriptlang.org/"
@@ -137,21 +142,21 @@
       ]
     },
     {
-      "title": "Eclipsebid",
-      "description": "This is the big project for the end of the 1st semester in the last year of my education. I was tasked with creating a fully functional auction page based on a full 'life-like' assignment brief. Among the specifications was a set of user stories I had to fullfil and a list of allowed tools and frameworks. For this project I'm using Tailwind as a CSS Framework and GitHub Projects for planning, as well as Figma for prototype design. The alloted time given to complete the assignment was 6 weeks.",
-      "github": "https://github.com/ESPR07/semester-project-2",
-      "link": "https://eclipsebid.netlify.app/",
-      "mainColor": "#2E1C38",
-      "buttonColor": "#F99417",
+      "title": "Helene's Portfolio",
+      "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in. This page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
+      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "link": "https://helenevolle.com",
+      "mainColor": "#4E2D0D",
+      "buttonColor": "#F1E3D4",
       "tech": [
         {
-          "skill": "Figma"
-        },
-        {
-          "skill": "TailwindCSS"
+          "skill": "HTML/CSS"
         },
         {
           "skill": "Javascript"
+        },
+        {
+          "skill": "Firebase"
         }
       ]
     }
