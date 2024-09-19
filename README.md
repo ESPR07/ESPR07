@@ -35,7 +35,7 @@ Let's create something amazing together!
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 ## ⭐ Highlighted Projects
-- [Portfolio Page](https://sindre-portfolio.netlify.app/)
+- [Portfolio Page](https://sindrestromsaether.dev/)
 - [Holidaze Accommodation](https://holidaze-sindre.netlify.app/)
 - [Checkout ecommerse](https://checkoutsindre.netlify.app/)
 - [Eclipsebid Auction](https://eclipsebid.netlify.app)
