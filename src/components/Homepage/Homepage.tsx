@@ -110,7 +110,7 @@ function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Home
             </section>
           </article>
           <article className={styles.projectLinksContainer}>
-            <h2>Projects</h2>
+            <h2>Project Spotlight</h2>
             <ul className={styles.projectList}>
               {data?.projects.map((project) => {
                 const newPage = {
@@ -121,7 +121,7 @@ function Homepage({setCurrentPage, data, setActiveAnimation, setOverflow} : Home
                   }
                 }
                 return(
-                  <li value={project.title} onClick={() => {setPage(newPage)}}>{project.title}</li>
+                  <li value={project.title} onClick={() => {window.scrollTo(0, 0); setPage(newPage)}}>{project.title}</li>
                 )
               })}
             </ul>
