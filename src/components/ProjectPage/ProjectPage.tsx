@@ -48,7 +48,7 @@ function ProjectPage({currentPage, data, setCurrentPage, setActiveAnimation, set
               ></a>
             </li>
             <li>
-              <a href="mailto:sinder009@gmail.com" id={styles.mail} aria-label="Mail"></a>
+              <a href="mailto:sindre.stromsaether@gmail.com" id={styles.mail} aria-label="Mail"></a>
             </li>
             <li>
               <a href="https://github.com/ESPR07" id={styles.github} aria-label="Github"></a>
