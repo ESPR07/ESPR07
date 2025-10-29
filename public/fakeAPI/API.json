@@ -47,6 +47,11 @@
         "skill": "Cypress",
         "logo": "/images/cypress.svg",
         "link": "https://www.cypress.io/"
+      },
+      {
+        "skill": "Vitest",
+        "logo": "/images/vitest.svg",
+        "link": "https://vitest.dev/"
       }
     ],
     "coding": [
@@ -99,6 +104,26 @@
         "skill": "Typescript",
         "logo": "/images/typescript.svg",
         "link": "https://www.typescriptlang.org/"
+      },
+      {
+        "skill": "Node JS",
+        "logo": "/images/nodejs.svg",
+        "link": "https://nodejs.org/en"
+      },
+      {
+        "skill": "Express",
+        "logo": "/images/expressjs.svg",
+        "link": "https://expressjs.com/"
+      },
+      {
+        "skill": "Python",
+        "logo": "/images/python.svg",
+        "link": "https://www.python.org/"
+      },
+      {
+        "skill": "Java JDK",
+        "logo": "/images/java.svg",
+        "link": "https://www.java.com/en/"
       }
     ]
   },

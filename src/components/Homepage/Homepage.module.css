@@ -43,6 +43,18 @@
   background-image: url('/images/github.svg');
 }
 
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .infoContainer {
   display: flex;
   flex-direction: column;
@@ -113,94 +125,88 @@
   margin-top: 20px;
 }
 
-.designContainer {
-  grid-area: design;
-}
-
-.hostingContainer {
-  grid-area: hosting;
-}
-
-.codingContainer {
-  grid-area: coding;
-}
-
-.designContainer h3, .hostingContainer h3, .codingContainer h3  {
-  margin: 0;
-  margin-bottom: 5px;
-}
-
-.designGrid, .hostingGrid, .codingGrid {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  padding-right: 10px;
-  border-right: 5px solid;
-  border-top: 5px solid;
-  border-image-source: linear-gradient(135deg, var(--yellowColor) 1%, var(--greenColor) 100%);
-  border-image-slice: 1;
-  padding-top: 10px;
-}
-
-.designGrid a, .hostingGrid a, .codingGrid a {
-  height: 50px;
-  width: 50px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: scale(1);
-  transition: transform 0.3s ease-in
-}
-
-.designGrid a:hover, .hostingGrid a:hover, .codingGrid a:hover {
-  transform: scale(1.2);
-}
-
 .projectLinksContainer {
   width: 25%;
 }
 
 .projectLinksContainer h2 {
+  margin: 0;
   padding-top: 60px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--greenColor);
+  border-bottom: 2px solid;
+  border-image: linear-gradient(135deg, var(--yellowColor), var(--greenColor));
+  border-image-slice: 1;
+  padding-bottom: 0.4rem;
 }
 
 .projectList {
-  position: relative;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  list-style: none;
-  margin-top: 10px;
+  gap: 0.75rem;
 }
 
-.projectList::before {
-  content: '';
-  position: absolute;
-  width: 40%;
-  height: 60%;
-  border-radius: 3px;
-  top: 0;
-  left: 0;
-  border-width: 20px 0 0 20px;
-  background: var(--cornerBordersColor);
-  clip-path: polygon(100% 0%, 100% 5px, 5px 5px, 5px 100%, 0% 100%, 0% 0%);
-}
-
-.projectList li {
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(135deg, var(--yellowColor) 1%, var(--greenColor) 100%);
+.projectItem {
+  position: relative;
+  padding: 0.6rem 0.4rem;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(135deg, var(--yellowColor), var(--greenColor));
   border-image-slice: 1;
-  margin-top: 20px;
-  font-size: 2rem;
-  transform: scale(1);
-  transition: transform 0.3s ease-in;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 0.3rem;
+  overflow: hidden;
 }
 
-.projectList li:hover {
-  cursor: pointer;
-  transform: scale(1.1);
+.projectItem::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--yellowColor), var(--greenColor));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.projectItem:hover::before {
+  opacity: 0.12;
+}
+
+.projectInfo {
+  position: relative;
+  z-index: 1;
+}
+
+.projectInfo h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+  background: linear-gradient(135deg, var(--yellowColor), var(--greenColor));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: letter-spacing 0.2s ease;
+}
+
+.projectItem:hover h3 {
+  letter-spacing: 0.03em;
+}
+
+.projectInfo p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+  opacity: 0.75;
+  line-height: 1.4;
+  transition: opacity 0.3s ease;
+}
+
+.projectItem:hover p {
+  opacity: 1;
 }
 
 @media screen and (max-width: 800px) {
