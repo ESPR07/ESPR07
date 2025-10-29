@@ -22,7 +22,7 @@ export type Response = {
     "design": [
       {
         "skill": string,
-        "logo": String,
+        "logo": string,
         "link": string
       }
     ],
