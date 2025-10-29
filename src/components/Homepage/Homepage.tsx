@@ -118,17 +118,21 @@ function Homepage({
                     buttonColor: project.buttonColor,
                   },
                 };
+
                 return (
                   <motion.li
                     key={project.title}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
+                    className={styles.projectItem}
+                    whileHover={{ scale: 1.04 }}
+                    whileTap={{ scale: 0.97 }}
                     onClick={() => {
                       window.scrollTo(0, 0);
                       setPage(newPage);
                     }}
                   >
-                    {project.title}
+                    <div className={styles.projectInfo}>
+                      <h3>{project.title}</h3>
+                    </div>
                   </motion.li>
                 );
               })}
