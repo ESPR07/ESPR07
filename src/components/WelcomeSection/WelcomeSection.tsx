@@ -1,17 +1,21 @@
-import { useContext } from "react";
-import { dataContext } from "../../App";
+import type { Response } from "../../@types/types";
+import { useTheme } from "../../context/themeContext";
 import style from "./WelcomeSection.module.css";
 
-function WelcomeSection() {
-  const data = useContext(dataContext);
+function WelcomeSection({ data }: { data: Response | null }) {
+  const { theme } = useTheme();
 
   if (data) {
     return (
-      <>
+      <div className={style.welcomeSection}>
         <section className={style.infoContainer}>
           <img
             className={style.nameGear}
-            src="/src/assets/images/singleGear.webp"
+            src={
+              theme === "light"
+                ? "/src/assets/images/singleGearLight.webp"
+                : "/src/assets/images/singleGear.webp"
+            }
             alt="A rotating Gear"
           />
           <h1>{data.info.name.toUpperCase()}</h1>
@@ -25,21 +29,27 @@ function WelcomeSection() {
           />
           <img
             className={style.homePageImage1}
-            src="/src/assets/images/singleGear.webp"
+            src={
+              theme === "light"
+                ? "/src/assets/images/singleGearLight.webp"
+                : "/src/assets/images/singleGear.webp"
+            }
             alt="A rotating Gear"
           />
           <img
             className={style.homePageImage2}
-            src="/src/assets/images/singleGear.webp"
+            src={
+              theme === "light"
+                ? "/src/assets/images/singleGearLight.webp"
+                : "/src/assets/images/singleGear.webp"
+            }
             alt="Another rotating gear"
           />
         </section>
-      </>
+      </div>
     );
   } else {
-    return(
-      <h1>Oops, Something went wrong.</h1>
-    )
+    return <h1>Oops, Something went wrong.</h1>;
   }
 }
 

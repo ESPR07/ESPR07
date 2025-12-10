@@ -4,6 +4,11 @@ export type Response = {
     "description": string,
     "picture": string,
   },
+  "socials": {
+    "Linkedin": string,
+    "Github": string,
+    "Email": string,
+  }
   "skills": {
     "design": [
       {
@@ -32,6 +37,8 @@ export type Response = {
       "title": string,
       "description": string,
       "github": string,
+      "tag": string,
+      "image_url": string
       "link": string,
       "mainColor": string,
       "buttonColor": string,

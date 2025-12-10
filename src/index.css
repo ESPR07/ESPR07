@@ -27,8 +27,8 @@
   --boxColor: rgba(10, 30, 50, 1);
   --mainHeaders: rgba(255, 255, 255, 1);
 
-  background-color: rgba(0, 15, 30, 1);
-  color: rgba(90, 191, 216, 1);
+  --backgroundColor: rgba(0, 15, 30, 1);
+  --textColor: rgba(90, 191, 216, 1);
 }
 
 /* Light theme */
@@ -37,8 +37,8 @@
   --boxColor: rgba(230, 235, 240, 1);
   --mainHeaders: rgb(0, 49, 98);
 
-  background-color: rgba(245, 245, 245, 1);
-  color: rgba(30, 45, 60, 1);
+  --backgroundColor: rgba(245, 245, 245, 1);
+  --textColor: rgba(30, 45, 60, 1);
 }
 
 main {
@@ -50,6 +50,8 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
   transition: background-color 0.5s, color 0.5s;
 }
 

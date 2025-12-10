@@ -1,3 +1,7 @@
+.welcomeSection {
+  display: flex;
+}
+
 .infoContainer {
   position: relative;
   flex: 2;
@@ -17,6 +21,27 @@
   }
 }
 
+.infoContainer h1 {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.infoContainer h2 {
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
 .nameGear {
   position: absolute;
   bottom: 30px;
@@ -26,7 +51,7 @@
   animation-name: spinning;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-timing-function: linear;
 }
 
@@ -68,7 +93,7 @@
   animation-name: spinning;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-timing-function: linear;
 }
 
@@ -79,6 +104,6 @@
   animation-name: spinning;
   animation-iteration-count: infinite;
   animation-direction: reverse;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-timing-function: linear;
 }

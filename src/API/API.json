@@ -4,125 +4,130 @@
     "description": "Hi, I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n My journey in front-end development has equipped me with a solid foundation in HTML, CSS, and JavaScript, as well as front-end frameworks and tools and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n Let's create something amazing together!",
     "picture": ""
   },
+  "socials": {
+    "Linkedin": "https://www.linkedin.com/in/sindre-str%C3%B8ms%C3%A6ther-der%C3%A5s-212353249/",
+    "Github": "https://github.com/ESPR07",
+    "Email": "mailto:sindre.stromsaether@gmail.com"
+  },
   "skills": {
     "design": [
       {
         "skill": "Figma",
-        "logo": "/images/figma.svg",
+        "logo": "/src/assets/images/figma.svg",
         "link": "https://www.figma.com/"
       },
       {
         "skill": "Photoshop",
-        "logo": "/images/photoshop.svg",
+        "logo": "/src/assets/images/photoshop.svg",
         "link": "https://www.adobe.com/no/products/photoshop.html"
       },
       {
         "skill": "Postman",
-        "logo": "/images/postman.svg",
+        "logo": "/src/assets/images/postman.svg",
         "link": "https://www.postman.com/"
       }
     ],
     "testing": [
       {
         "skill": "Netlify",
-        "logo": "/images/netlify.svg",
+        "logo": "/src/assets/images/netlify.svg",
         "link": "https://www.netlify.com/"
       },
       {
         "skill": "Wordpress",
-        "logo": "/images/wordpress.svg",
+        "logo": "/src/assets/images/wordpress.svg",
         "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
       },
       {
         "skill": "Github",
-        "logo": "/images/githubLogo.svg",
+        "logo": "/src/assets/images/githubLogo.svg",
         "link": "https://github.com/"
       },
       {
         "skill": "Jest",
-        "logo": "/images/jest.svg",
+        "logo": "/src/assets/images/jest.svg",
         "link": "https://jestjs.io/"
       },
       {
         "skill": "Cypress",
-        "logo": "/images/cypress.svg",
+        "logo": "/src/assets/images/cypress.svg",
         "link": "https://www.cypress.io/"
       },
       {
         "skill": "Vitest",
-        "logo": "/images/vitest.svg",
+        "logo": "/src/assets/images/vitest.svg",
         "link": "https://vitest.dev/"
       }
     ],
     "coding": [
       {
         "skill": "Git",
-        "logo": "/images/git.svg",
+        "logo": "/src/assets/images/git.svg",
         "link": "https://git-scm.com/"
       },
       {
         "skill": "HTML5",
-        "logo": "/images/html5.svg",
+        "logo": "/src/assets/images/html5.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         "skill": "CSS3",
-        "logo": "/images/css3.svg",
+        "logo": "/src/assets/images/css3.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         "skill": "Javascript",
-        "logo": "/images/javascript.svg",
+        "logo": "/src/assets/images/javascript.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         "skill": "Bootstrap",
-        "logo": "/images/bootstrap.svg",
+        "logo": "/src/assets/images/bootstrap.svg",
         "link": "https://getbootstrap.com/"
       },
       {
         "skill": "Sass",
-        "logo": "/images/sass.svg",
+        "logo": "/src/assets/images/sass.svg",
         "link": "https://sass-lang.com/"
       },
       {
         "skill": "Tailwind CSS",
-        "logo": "/images/tailwindcss.svg",
+        "logo": "/src/assets/images/tailwindcss.svg",
         "link": "https://tailwindcss.com/"
       },
       {
         "skill": "React",
-        "logo": "/images/react.svg",
+        "logo": "/src/assets/images/react.svg",
         "link": "https://react.dev/"
       },
       {
         "skill": "React Native",
-        "logo": "/images/reactNative.svg",
+        "logo": "/src/assets/images/reactNative.svg",
         "link": "https://reactnative.dev/"
       },
       {
         "skill": "Typescript",
-        "logo": "/images/typescript.svg",
+        "logo": "/src/assets/images/typescript.svg",
         "link": "https://www.typescriptlang.org/"
       },
       {
         "skill": "Node JS",
-        "logo": "/images/nodejs.svg",
+        "logo": "/src/assets/images/nodejs.svg",
         "link": "https://nodejs.org/en"
       },
       {
         "skill": "Express",
-        "logo": "/images/expressjs.svg",
+        "logo": "/src/assets/images/expressjs.webp",
         "link": "https://expressjs.com/"
       },
       {
         "skill": "Python",
-        "logo": "/images/python.svg",
+        "logo": "/src/assets/images/python.svg",
         "link": "https://www.python.org/"
       },
       {
         "skill": "Java JDK",
-        "logo": "/images/java.svg",
+        "logo": "/src/assets/images/java.svg",
         "link": "https://www.java.com/en/"
       }
     ]
@@ -132,6 +137,8 @@
       "title": "Holidaze",
       "description": "Holidaze is my final exam were we tasked with creating an accommodation booking site. All the way from planning the project with a kanban and ghantt board for issues, and timing, to desiging the prototype in figma and lastly develop and deploy the page. The allotted time given was 7 weeks, with a set of user stories that are required to be implemented.",
       "github": "https://github.com/ESPR07/project-exam-2",
+      "tag": "Accomadation",
+      "image_url": "https://private-user-images.githubusercontent.com/111272036/332349265-03faaae4-aa20-43f3-b6fd-87c833fe3372.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTE5MzQsIm5iZiI6MTc2NTM5MTYzNCwicGF0aCI6Ii8xMTEyNzIwMzYvMzMyMzQ5MjY1LTAzZmFhYWU0LWFhMjAtNDNmMy1iNmZkLTg3YzgzM2ZlMzM3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODMzNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MjBiYjZiNzUyZTllYmY2N2NhOTY1NzhhM2M2Mjg3NDBkY2I2ZGUzODU3OGViOTk5Y2NmNDg4OWI0YjM1MTc2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._RWKwx7vCiHEXanK8Oxu1Zyu67_RfkgcbsbKxmmitNU",
       "link": "https://holidaze-sindre.netlify.app/",
       "mainColor": "#8A4630",
       "buttonColor": "#FC8059",
@@ -151,6 +158,8 @@
       "title": "Checkout",
       "description": "Checkout is a ecommerce page we were tasked with using React. it was also highly adviced to try out helpful tools like React Form Hook, Styled components, modular CSS and Router DOM to get a feel for what exists out there. My project is built using React, together with Typescript, React Form Hook, and React Router DOM.",
       "github": "https://github.com/ESPR07/js-framework",
+      "tag": "Ecommerce",
+      "image_url": "https://private-user-images.githubusercontent.com/111272036/316003005-9773bacc-d5b8-4089-a401-582cb35b7ab5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTIzMzMsIm5iZiI6MTc2NTM5MjAzMywicGF0aCI6Ii8xMTEyNzIwMzYvMzE2MDAzMDA1LTk3NzNiYWNjLWQ1YjgtNDA4OS1hNDAxLTU4MmNiMzViN2FiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODQwMzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWM5ODE1M2QwMzA2MDA5MmM5ZDQ3Mjg5NjlhNGM0NTliNWY4NWJhYzFmYjE1NTdlNWI1YWI5ZjkwZDM2ZTRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5n2Q8D0fh01xtqBwRL7hwTFouGGOrT6wPCsAfI2IUdY",
       "link": "https://checkoutsindre.netlify.app/",
       "mainColor": "#2E4F4F",
       "buttonColor": "#0E8388",
@@ -170,6 +179,8 @@
       "title": "Helene's Portfolio",
       "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in. This page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "tag": "Portfolio",
+      "image_url": "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTIyNjEsIm5iZiI6MTc2NTM5MTk2MSwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODM5MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZDAwYmUyOTNlNTY1Y2FmOTUyMWYxNWU4YTQxOWZjMjM0NGEwMGVjYmM5NTM4ODI2NjU5MzNlYWI4ZGU5MWRmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.g6-1YpQKV_mUoKv0gK0xem8bqbK6uE0RWg26ajZGMjg",
       "link": "https://helenevolle.com",
       "mainColor": "#4E2D0D",
       "buttonColor": "#F1E3D4",
