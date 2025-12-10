@@ -1,7 +1,12 @@
+import WelcomeSection from "../../components/WelcomeSection/WelcomeSection";
+import style from "./Homepage.module.css";
+
 function Homepage() {
   return (
-    <h1>Hello World!</h1>
-  )
+    <main className={style.homePageMain}>
+      <WelcomeSection/>
+    </main>
+  );
 }
 
 export default Homepage;

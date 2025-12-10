@@ -1,0 +1,85 @@
+.header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid var(--boxColor);
+}
+
+.navbar {
+  height: 100%;
+  padding-inline: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.pageLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+.pageLink {
+  height: 100%;
+  align-content: center;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+}
+
+.pageLink:hover {
+  border-bottom: 1px solid var(--elementColor);
+}
+
+.active {
+  color: var(--elementColor);
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: var(--elementColor);
+  border-radius: 4px;
+  transition: left 0.25s ease, width 0.25s ease;
+  box-shadow: 0 0 8px var(--elementColor);
+  pointer-events: none;
+}
+
+.toggleContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: var(--boxColor);
+  border: 2px solid var(--elementColor);
+  padding: 0 2px;
+}
+
+.toggleContainer:hover {
+  cursor: pointer;
+}
+
+.dark {
+  right: 2px;
+  transition: right 0.2s ease;
+}
+
+.light {
+  right: 22px;
+  transition: right 0.3s ease;
+}
+
+.toggleBall {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--elementColor);
+  background-color: var(--elementColor);
+  border-radius: 100%;
+}

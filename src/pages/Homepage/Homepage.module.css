@@ -1,0 +1,6 @@
+.homePageMain {
+display: flex;
+justify-content: space-between;
+max-height: 500px;
+margin-top: 150px;
+}
