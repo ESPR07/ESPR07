@@ -195,6 +195,26 @@
           "skill": "Firebase"
         }
       ]
+    },
+    {
+      "title": "EclipseBid",
+      "description": "Bidding website made to try our hands at mor elive data handling",
+      "tag": "Auction",
+      "image_url": "https://private-user-images.githubusercontent.com/111272036/289526390-1058b8b9-2425-4454-bf6a-42c61df4de60.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU0MDY2NjcsIm5iZiI6MTc2NTQwNjM2NywicGF0aCI6Ii8xMTEyNzIwMzYvMjg5NTI2MzkwLTEwNThiOGI5LTI0MjUtNDQ1NC1iZjZhLTQyYzYxZGY0ZGU2MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQyMjM5MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YTBhMmIwOWFjMmFjNWJiNGQ1NTY1YWQwOThjNjhiN2E4OTI1ZWY4NGU1NjRlNzE3OWU0YThhZmJiZjg1N2E5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Qv2wsznbRui0MhyLsueI7YOjKB1b8_KCqtWXk_nZC-o",
+      "link": "https://eclipsebid.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        }
+      ]
     }
   ]
 }
