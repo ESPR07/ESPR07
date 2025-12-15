@@ -19,7 +19,7 @@ function AboutMe() {
           <div className={styles.profileSection}>
             <div className={styles.imageWrapper}>
               <img 
-                src={"/src/assets/images/selfie.webp"} 
+                src={"/assets/images/selfie.webp"} 
                 alt={"Picture of me"}
                 className={styles.profileImage}
               />

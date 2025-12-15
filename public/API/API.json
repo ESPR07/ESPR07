@@ -13,121 +13,121 @@
     "design": [
       {
         "skill": "Figma",
-        "logo": "/src/assets/images/figma.svg",
+        "logo": "/assets/images/figma.svg",
         "link": "https://www.figma.com/"
       },
       {
         "skill": "Photoshop",
-        "logo": "/src/assets/images/photoshop.svg",
+        "logo": "/assets/images/photoshop.svg",
         "link": "https://www.adobe.com/no/products/photoshop.html"
       },
       {
         "skill": "Postman",
-        "logo": "/src/assets/images/postman.svg",
+        "logo": "/assets/images/postman.svg",
         "link": "https://www.postman.com/"
       }
     ],
     "testing": [
       {
         "skill": "Netlify",
-        "logo": "/src/assets/images/netlify.svg",
+        "logo": "/assets/images/netlify.svg",
         "link": "https://www.netlify.com/"
       },
       {
         "skill": "Wordpress",
-        "logo": "/src/assets/images/wordpress.svg",
+        "logo": "/assets/images/wordpress.svg",
         "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
       },
       {
         "skill": "Github",
-        "logo": "/src/assets/images/githubLogo.svg",
+        "logo": "/assets/images/githubLogo.svg",
         "link": "https://github.com/"
       },
       {
         "skill": "Jest",
-        "logo": "/src/assets/images/jest.svg",
+        "logo": "/assets/images/jest.svg",
         "link": "https://jestjs.io/"
       },
       {
         "skill": "Cypress",
-        "logo": "/src/assets/images/cypress.svg",
+        "logo": "/assets/images/cypress.svg",
         "link": "https://www.cypress.io/"
       },
       {
         "skill": "Vitest",
-        "logo": "/src/assets/images/vitest.svg",
+        "logo": "/assets/images/vitest.svg",
         "link": "https://vitest.dev/"
       }
     ],
     "coding": [
       {
         "skill": "Git",
-        "logo": "/src/assets/images/git.svg",
+        "logo": "/assets/images/git.svg",
         "link": "https://git-scm.com/"
       },
       {
         "skill": "HTML5",
-        "logo": "/src/assets/images/html5.svg",
+        "logo": "/assets/images/html5.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         "skill": "CSS3",
-        "logo": "/src/assets/images/css3.svg",
+        "logo": "/assets/images/css3.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         "skill": "Javascript",
-        "logo": "/src/assets/images/javascript.svg",
+        "logo": "/assets/images/javascript.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         "skill": "Bootstrap",
-        "logo": "/src/assets/images/bootstrap.svg",
+        "logo": "/assets/images/bootstrap.svg",
         "link": "https://getbootstrap.com/"
       },
       {
         "skill": "Sass",
-        "logo": "/src/assets/images/sass.svg",
+        "logo": "/assets/images/sass.svg",
         "link": "https://sass-lang.com/"
       },
       {
         "skill": "Tailwind CSS",
-        "logo": "/src/assets/images/tailwindcss.svg",
+        "logo": "/assets/images/tailwindcss.svg",
         "link": "https://tailwindcss.com/"
       },
       {
         "skill": "React",
-        "logo": "/src/assets/images/react.svg",
+        "logo": "/assets/images/react.svg",
         "link": "https://react.dev/"
       },
       {
         "skill": "React Native",
-        "logo": "/src/assets/images/reactNative.svg",
+        "logo": "/assets/images/reactNative.svg",
         "link": "https://reactnative.dev/"
       },
       {
         "skill": "Typescript",
-        "logo": "/src/assets/images/typescript.svg",
+        "logo": "/assets/images/typescript.svg",
         "link": "https://www.typescriptlang.org/"
       },
       {
         "skill": "Node JS",
-        "logo": "/src/assets/images/nodejs.svg",
+        "logo": "/assets/images/nodejs.svg",
         "link": "https://nodejs.org/en"
       },
       {
         "skill": "Express",
-        "logo": "/src/assets/images/expressjs.webp",
+        "logo": "/assets/images/expressjs.webp",
         "link": "https://expressjs.com/"
       },
       {
         "skill": "Python",
-        "logo": "/src/assets/images/python.svg",
+        "logo": "/assets/images/python.svg",
         "link": "https://www.python.org/"
       },
       {
         "skill": "Java JDK",
-        "logo": "/src/assets/images/java.svg",
+        "logo": "/assets/images/java.svg",
         "link": "https://www.java.com/en/"
       }
     ]

@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Inter';
-  src: url("/src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf");
+  src: url("/assets/fonts/Inter-VariableFont_opsz\,wght.ttf");
 }
 @font-face {
   font-family: 'poppins';
-  src: url("/src/assets/fonts/Poppins-Regular.ttf");
+  src: url("/assets/fonts/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: 'poppins bold';
-  src: url("/src/assets/fonts/Poppins-Bold.ttf");
+  src: url("/assets/fonts/Poppins-Bold.ttf");
 }
 
 :root {

@@ -13,8 +13,8 @@ function WelcomeSection({ data }: { data: Response | null }) {
             className={style.nameGear}
             src={
               theme === "light"
-                ? "/src/assets/images/singleGearLight.webp"
-                : "/src/assets/images/singleGear.webp"
+                ? "/assets/images/singleGearLight.webp"
+                : "/assets/images/singleGear.webp"
             }
             alt="A rotating Gear"
           />
@@ -24,15 +24,15 @@ function WelcomeSection({ data }: { data: Response | null }) {
         <section className={style.imageContainer}>
           <img
             className={style.selfie}
-            src="/src/assets/images/selfie.webp"
+            src="/assets/images/selfie.webp"
             alt="Picture of me!"
           />
           <img
             className={style.homePageImage1}
             src={
               theme === "light"
-                ? "/src/assets/images/singleGearLight.webp"
-                : "/src/assets/images/singleGear.webp"
+                ? "/assets/images/singleGearLight.webp"
+                : "/assets/images/singleGear.webp"
             }
             alt="A rotating Gear"
           />
@@ -40,8 +40,8 @@ function WelcomeSection({ data }: { data: Response | null }) {
             className={style.homePageImage2}
             src={
               theme === "light"
-                ? "/src/assets/images/singleGearLight.webp"
-                : "/src/assets/images/singleGear.webp"
+                ? "/assets/images/singleGearLight.webp"
+                : "/assets/images/singleGear.webp"
             }
             alt="Another rotating gear"
           />
