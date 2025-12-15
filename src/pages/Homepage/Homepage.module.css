@@ -19,12 +19,10 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
   place-items: center;
-}
-
-.closed {
-  max-height: 310px;
+  max-height: 430px;
+  padding-top: 10px;
 }
 
 .open {
@@ -94,4 +92,23 @@
 .skillsSocialsContainer {
   display: flex;
   gap: 100px;
+}
+
+@media screen and (max-width: 750px) {
+  .homePageMain {
+    overflow-x: hidden;
+  }
+
+  .projectGrid {
+    max-height: 480px;
+  }
+
+  .open {
+    max-height: 100%;
+  }
+
+  .skillsSocialsContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

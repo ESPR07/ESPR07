@@ -17,16 +17,15 @@ function Homepage() {
         <h2 className={style.projectsHeader}>PROJECTS</h2>
         <article
           className={`${style.projectGrid} ${
-            !isOpen ? style.closed : style.open
+            !isOpen ? "" : style.open
           }`}
         >
-          {data.projects.map((project) => {
+          {data.projects.map((project, index) => {
             return (
               <ProjectCard
-                title={project.title}
-                tag={project.tag}
-                link={project.link}
-                imageUrl={project.image_url}
+                project={project}
+                key={index}
+                normal={false}
               />
             );
           })}

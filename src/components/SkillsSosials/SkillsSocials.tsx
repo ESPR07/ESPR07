@@ -78,9 +78,9 @@ function SkillsSocials({
       </article>
       <article className={style.socialsContainer}>
         <h2>Socials</h2>
-        <Link to={socials.Linkedin}>Linkedin</Link>
-        <Link to={socials.Github}>Github</Link>
-        <Link to={socials.Email}>Send Me Mail</Link>
+        <Link to={socials.Linkedin} target="_blank">Linkedin</Link>
+        <Link to={socials.Github} target="_blank">Github</Link>
+        <Link to={socials.Email} target="_blank">Send Me Mail</Link>
       </article>
     </>
   );

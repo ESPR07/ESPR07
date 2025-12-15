@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Sindre S Derås",
-    "description": "Hi, I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n My journey in front-end development has equipped me with a solid foundation in HTML, CSS, and JavaScript, as well as front-end frameworks and tools and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n Let's create something amazing together!",
+    "description": "Hi, I'm a passionate and newly educated developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n\n My journey in front-end development has equipped me with a solid foundation in HTML, CSS, and JavaScript, as well as front-end frameworks and tools and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n\n In Later time I've starting broadening my skillsets to not only create visually appealing and responsive front end but also work with back end API's and databases. \n\n Let's create something amazing together!",
     "picture": ""
   },
   "socials": {
@@ -134,11 +134,32 @@
   },
   "projects": [
     {
+      "title": "Helene's Portfolio",
+      "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in.\n\nThis page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
+      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "tag": "Portfolio",
+      "image_url": "https://i.postimg.cc/GhK8d41J/helene_Portfolio.webp",
+      "link": "https://helenevolle.com",
+      "mainColor": "#4E2D0D",
+      "buttonColor": "#F1E3D4",
+      "tech": [
+        {
+          "skill": "HTML/CSS"
+        },
+        {
+          "skill": "Javascript"
+        },
+        {
+          "skill": "Firebase"
+        }
+      ]
+    },
+    {
       "title": "Holidaze",
-      "description": "Holidaze is my final exam were we tasked with creating an accommodation booking site. All the way from planning the project with a kanban and ghantt board for issues, and timing, to desiging the prototype in figma and lastly develop and deploy the page. The allotted time given was 7 weeks, with a set of user stories that are required to be implemented.",
+      "description": "For my final exam project, I developed an accommodation booking website, starting with detailed planning using a Kanban board and Gantt chart to manage tasks and timelines. The design phase involved creating a prototype in Figma, focusing on a user-friendly interface and seamless experience. Once the prototype was finalized, I moved to development, coding the website to meet the required user stories and ensuring full functionality. After testing, I successfully deployed the site, making it publicly accessible. This project gave me valuable experience in front-end development, project management, and user experience design. It also earned me an A grade, reflecting the quality and effort I put into the project.",
       "github": "https://github.com/ESPR07/project-exam-2",
       "tag": "Accomadation",
-      "image_url": "https://private-user-images.githubusercontent.com/111272036/332349265-03faaae4-aa20-43f3-b6fd-87c833fe3372.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTE5MzQsIm5iZiI6MTc2NTM5MTYzNCwicGF0aCI6Ii8xMTEyNzIwMzYvMzMyMzQ5MjY1LTAzZmFhYWU0LWFhMjAtNDNmMy1iNmZkLTg3YzgzM2ZlMzM3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODMzNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MjBiYjZiNzUyZTllYmY2N2NhOTY1NzhhM2M2Mjg3NDBkY2I2ZGUzODU3OGViOTk5Y2NmNDg4OWI0YjM1MTc2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._RWKwx7vCiHEXanK8Oxu1Zyu67_RfkgcbsbKxmmitNU",
+      "image_url": "https://i.postimg.cc/RVd64WzL/holidaze.webp",
       "link": "https://holidaze-sindre.netlify.app/",
       "mainColor": "#8A4630",
       "buttonColor": "#FC8059",
@@ -156,10 +177,10 @@
     },
     {
       "title": "Checkout",
-      "description": "Checkout is a ecommerce page we were tasked with using React. it was also highly adviced to try out helpful tools like React Form Hook, Styled components, modular CSS and Router DOM to get a feel for what exists out there. My project is built using React, together with Typescript, React Form Hook, and React Router DOM.",
+      "description": "For this project, I built an e-commerce checkout page using React, with a focus on exploring modern tools and libraries commonly used in the React ecosystem. I implemented React Form Hook for handling form validations, Styled Components for styling, and React Router DOM for navigation between pages. The project was also developed with TypeScript for better type safety and maintainability. I made sure to apply modular CSS practices to keep the codebase clean and scalable. This hands-on experience not only enhanced my React and TypeScript skills but also gave me a deeper understanding of the useful tools and techniques available in the ecosystem.",
       "github": "https://github.com/ESPR07/js-framework",
       "tag": "Ecommerce",
-      "image_url": "https://private-user-images.githubusercontent.com/111272036/316003005-9773bacc-d5b8-4089-a401-582cb35b7ab5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTIzMzMsIm5iZiI6MTc2NTM5MjAzMywicGF0aCI6Ii8xMTEyNzIwMzYvMzE2MDAzMDA1LTk3NzNiYWNjLWQ1YjgtNDA4OS1hNDAxLTU4MmNiMzViN2FiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODQwMzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWM5ODE1M2QwMzA2MDA5MmM5ZDQ3Mjg5NjlhNGM0NTliNWY4NWJhYzFmYjE1NTdlNWI1YWI5ZjkwZDM2ZTRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5n2Q8D0fh01xtqBwRL7hwTFouGGOrT6wPCsAfI2IUdY",
+      "image_url": "https://i.postimg.cc/L6DY2JMk/checkout_Page.webp",
       "link": "https://checkoutsindre.netlify.app/",
       "mainColor": "#2E4F4F",
       "buttonColor": "#0E8388",
@@ -176,31 +197,11 @@
       ]
     },
     {
-      "title": "Helene's Portfolio",
-      "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in. This page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
-      "github": "https://github.com/ESPR07/helene-volle-portfolio",
-      "tag": "Portfolio",
-      "image_url": "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzOTIyNjEsIm5iZiI6MTc2NTM5MTk2MSwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxODM5MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZDAwYmUyOTNlNTY1Y2FmOTUyMWYxNWU4YTQxOWZjMjM0NGEwMGVjYmM5NTM4ODI2NjU5MzNlYWI4ZGU5MWRmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.g6-1YpQKV_mUoKv0gK0xem8bqbK6uE0RWg26ajZGMjg",
-      "link": "https://helenevolle.com",
-      "mainColor": "#4E2D0D",
-      "buttonColor": "#F1E3D4",
-      "tech": [
-        {
-          "skill": "HTML/CSS"
-        },
-        {
-          "skill": "Javascript"
-        },
-        {
-          "skill": "Firebase"
-        }
-      ]
-    },
-    {
       "title": "EclipseBid",
-      "description": "Bidding website made to try our hands at mor elive data handling",
+      "description": "For this project, I created an auction site called EclipseBid using React and Tailwind CSS. The primary focus was to explore the utility-first CSS framework, Tailwind, to quickly style the interface while maintaining responsiveness and clean code. I implemented core auction features such as bidding, timers, and item listings. The use of Tailwind allowed for rapid development and a streamlined design process, while React handled the dynamic content and state management. The site’s clean, modern design and efficient user interface were key goals, and Tailwind helped achieve this with minimal custom CSS. This project enhanced my skills in both React and Tailwind, allowing me to deliver a polished, functional application.",
+      "github": "https://github.com/ESPR07/semester-project-2",
       "tag": "Auction",
-      "image_url": "https://private-user-images.githubusercontent.com/111272036/289526390-1058b8b9-2425-4454-bf6a-42c61df4de60.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU0MDY2NjcsIm5iZiI6MTc2NTQwNjM2NywicGF0aCI6Ii8xMTEyNzIwMzYvMjg5NTI2MzkwLTEwNThiOGI5LTI0MjUtNDQ1NC1iZjZhLTQyYzYxZGY0ZGU2MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQyMjM5MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YTBhMmIwOWFjMmFjNWJiNGQ1NTY1YWQwOThjNjhiN2E4OTI1ZWY4NGU1NjRlNzE3OWU0YThhZmJiZjg1N2E5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Qv2wsznbRui0MhyLsueI7YOjKB1b8_KCqtWXk_nZC-o",
+      "image_url": "https://i.postimg.cc/X7LG4r0f/eclipsebid.webp",
       "link": "https://eclipsebid.netlify.app/",
       "mainColor": "#2E4F4F",
       "buttonColor": "#0E8388",

@@ -1,0 +1,211 @@
+.projectContainer {
+  width: 90vw;
+  height: 100%;
+  min-width: 80%;
+  margin-inline: auto;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.topNav button {
+  height: 50px;
+  width: 50px;
+  background-image: url("/src/assets/images/backArrow.svg");
+  background-position: center;
+  background-size: contain;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  transform: scale(1);
+  transition: transform 0.5s ease-in;
+  margin-bottom: 20px;
+}
+
+.topNav button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.projectInfo {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfo h1 {
+  font-size: 4rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.iframeContainer {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  transition: all 0.5s ease-in;
+}
+
+iframe {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    to bottom,
+    var(--yellowColor),
+    var(--greenColor)
+  );
+  border-image-slice: 1;
+  transition: all 0.5s ease-in;
+}
+
+#fullScreen {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.fullScreen {
+  position: absolute;
+  width: calc(100% - 4px);
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.iframeContainer button {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: var(--zoomButton);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 3px;
+  z-index: 20;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.iframeContainer button:hover {
+  transform: scale(1.2);
+}
+
+.fullscreenButton {
+  background-size: contain;
+  bottom: 20px;
+  right: 20px;
+}
+
+.githubButton {
+  bottom: 20px;
+  right: 80px;
+  background-image: url("/src/assets/images/githubBlack.svg");
+  background-size: 80%;
+}
+
+.buttonPlus {
+  background-image: url("/src/assets/images/zoomIn.svg");
+}
+
+.buttonMinus {
+  background-image: url("/src/assets/images/zoomOut.svg");
+}
+
+.iframeContainer button:hover {
+  cursor: pointer;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomSection p {
+  font-size: 1.5rem;
+  max-width: 70%;
+  margin-block: 50px;
+  white-space: pre-wrap;
+}
+
+.projectStackContainer {
+  width: 25%;
+  margin-block: 50px;
+}
+
+.projectStackContainer h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  text-wrap: nowrap;
+}
+
+.stackList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.stackList li {
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(
+    135deg,
+    var(--yellowColor) 1%,
+    var(--greenColor) 100%
+  );
+  border-image-slice: 1;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+  .projectContainer {
+    min-width: 90%;
+    margin-top: 80px;
+  }
+
+  .iframeContainer {
+    min-height: calc(100% - 80px);
+    z-index: 20;
+  }
+
+  #fullscreen {
+    min-height: 100%;
+    top: 80px;
+  }
+
+  .fullScreen {
+    width: 99%;
+    height: 100%;
+    top: 80px;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+  }
+
+  .bottomSection p {
+    max-width: 100%;
+  }
+
+  .projectStackContainer {
+    width: 90%;
+  }
+
+  .iframeContainer {
+    min-height: 300px;
+  }
+}

@@ -1,91 +1,151 @@
-.cardContainer {
-  --border-angle: 0deg;
-  
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  max-width: 300px;
-  border-radius: 20px;
-  background-color: var(--boxColor);
-  transition: transform 0.1s ease-in;
+/* Project Card */
+.projectCard,
+.projectCardHome {
+  background: var(--boxColor);
+  border-radius: 16px;
   overflow: hidden;
-  border: 2px solid transparent;
-  background-image: 
-    linear-gradient(var(--boxColor), var(--boxColor)),
-    conic-gradient(from var(--border-angle), 
-      transparent 0deg,
-      transparent 120deg,
-      var(--elementColor) 180deg,
-      transparent 240deg,
-      transparent 360deg);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(90, 191, 216, 0.2);
+  backdrop-filter: blur(10px);
 }
 
-.cardContainer:hover {
-  cursor: pointer;
-  transition: transform 0.1s ease-in;
+.projectCardHome {
+  width: 90%;
+}
 
-  .heightWrapper {
-    max-height: 100%;
-    transition: max-height 0.2s ease-in;
+.projectCard:hover, .projectCardHome:hover {
+  transform: translateY(-8px);
+  border-color: var(--elementColor);
+  box-shadow: 0 12px 40px rgba(90, 191, 216, 0.3);
+}
 
-    .cardInfo {
-      h3 {
-        margin-bottom: 0px;
-        transition: margin-bottom 0.1s ease-in;
-      }
-    }
-  }
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
 }
 
 .projectImage {
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  transition: transform 0.5s ease;
 }
 
-.heightWrapper {
-  max-height: 60px;
-  transition: max-height 0.2s ease-in;
+.projectCard:hover .projectImage {
+  transform: scale(1.1);
 }
 
-.cardInfo {
-  margin-inline: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
-  h3 {
-    color: var(--mainHeaders);
-    margin-bottom: 30px;
-    margin-top: 15px;
-    transition: margin-bottom 0.1s ease-in;
-  }
-
-  p {
-    color: var(--mainHeaders);
-    opacity: 0.4;
-    margin: 0;
-    margin-bottom: 10px;
-  }
-}
-
-.buttonsWrapper {
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--backgroundColor) 100%
+  );
   display: flex;
-  width: 100%;
-  a {
-    width: 100%;
-    border-radius: 0 0 10px 10px;
-    background-color: var(--boxColor);
-    height: 50px;
-    border: none;
-    color: var(--mainHeaders);
-    opacity: 0.7;
-    text-align: start;
-    padding-left: 20px;
-    align-content: center;
-    &:hover {
-      background-color: var(--elementColor);
-      cursor: pointer;
-    }
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.tag {
+  background: var(--elementColor);
+  color: var(--backgroundColor);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Project Content */
+.projectContent {
+  padding: 25px;
+}
+
+.projectTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 15px;
+  color: var(--mainHeaders);
+}
+
+.projectDescription {
+  color: var(--textColor);
+  line-height: 1.6;
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Tech Stack */
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.techBadge {
+  background: rgba(90, 191, 216, 0.15);
+  color: var(--elementColor);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(90, 191, 216, 0.3);
+}
+
+/* Buttons */
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  text-align: center;
+  align-content: center;
+  flex: 1;
+}
+
+.btnPrimary {
+  background: var(--elementColor);
+  color: var(--backgroundColor);
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(90, 191, 216, 0.4);
+  opacity: 0.9;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--elementColor);
+  border: 2px solid var(--elementColor);
+}
+
+.btnSecondary:hover {
+  background: rgba(90, 191, 216, 0.1);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .buttonGroup {
+    flex-direction: column;
   }
 }
