@@ -75,6 +75,7 @@
   font-weight: 700;
   margin: 0 0 15px;
   color: var(--mainHeaders);
+  white-space: nowrap;
 }
 
 .projectDescription {

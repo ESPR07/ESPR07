@@ -172,6 +172,9 @@
         },
         {
           "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
         }
       ]
     },
@@ -193,6 +196,9 @@
         },
         {
           "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
         }
       ]
     },
@@ -214,6 +220,51 @@
         },
         {
           "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
+        }
+      ]
+    },
+    {
+      "title": "TechPost",
+      "description": "The 1st year Project Exam was the biggest delivery we had during the first year. It involved creating a full blog site of our choice from the ground up and it have to include at least 12 blog posts on the back end, a carousel for latest blogs and image modals as well as everything we've learned during the first year. We had 5 weeks to complete this exam.",
+      "github": "https://github.com/ESPR07/Project-Exam-1",
+      "tag": "Blog Post",
+      "image_url": "https://i.postimg.cc/d188Tf6y/tech-Post.webp",
+      "link": "https://techpost-projectexam.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "HTML, CSS & Javascript"
+        },
+        {
+          "skill": "Headless Wordpress"
+        }
+      ]
+    },
+    {
+      "title": "Community Science Museum",
+      "description": "For the first semester project our assignment was to make a museum information web page. At this stage the main focus was on the HTML and CSS. Things like following DRY principle, making sure the site works on all devices and and testing WCAG compatibility.",
+      "github": "https://github.com/ESPR07/Noroff-Semester-Project-1",
+      "tag": "Infomercial",
+      "image_url": "https://i.postimg.cc/Qd3VFMwh/science-Museum.webp",
+      "link": "https://noroff-semester-project-1-sindre.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "HTML"
+        },
+        {
+          "skill": "CSS"
         }
       ]
     }
