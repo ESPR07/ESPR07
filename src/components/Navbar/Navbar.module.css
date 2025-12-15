@@ -84,15 +84,15 @@
 }
 
 #linkedin {
-  background-image: url("/src/assets/images/linkedin.svg");
+  background-image: url("/assets/images/linkedin.svg");
 }
 
 #mail {
-  background-image: url('/src/assets/images/mail.svg');
+  background-image: url('/assets/images/mail.svg');
 }
 
 #github {
-  background-image: url('/src/assets/images/github.svg');
+  background-image: url('/assets/images/github.svg');
 }
 
 .toggleContainer {
