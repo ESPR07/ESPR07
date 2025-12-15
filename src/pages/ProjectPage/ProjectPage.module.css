@@ -1,8 +1,8 @@
 .projectContainer {
-  padding: 20px;
-  width: 80%;
+  width: 90vw;
   height: 100%;
   min-width: 80%;
+  margin-inline: auto;
 }
 
 .topNav {
@@ -15,7 +15,7 @@
 .topNav button {
   height: 50px;
   width: 50px;
-  background-image: url("/images/backArrow.svg");
+  background-image: url("/src/assets/images/backArrow.svg");
   background-position: center;
   background-size: contain;
   border: none;
@@ -23,49 +23,12 @@
   background-color: rgba(0, 0, 0, 0);
   transform: scale(1);
   transition: transform 0.5s ease-in;
+  margin-bottom: 20px;
 }
 
 .topNav button:hover {
   cursor: pointer;
   transform: scale(1.2);
-}
-
-.socials {
-  list-style: none;
-  display: flex;
-  justify-content: end;
-  gap: 15px;
-  margin: 0;
-}
-
-.socials li {
-  display: flex;
-}
-
-.socials a {
-  width: 40px;
-  height: 40px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: scale(1);
-  transition: transform 0.3s ease-in
-}
-
-.socials a:hover {
-  transform: scale(1.2);
-}
-
-#linkedin {
-  background-image: url("/images/linkedin.svg");
-}
-
-#mail {
-  background-image: url('/images/mail.svg');
-}
-
-#github {
-  background-image: url('/images/github.svg');
 }
 
 .projectInfo {
@@ -91,16 +54,20 @@ iframe {
   position: relative;
   width: 100%;
   min-height: 400px;
-  border: 5px solid;
-  border-image-source: linear-gradient(to bottom, var(--yellowColor), var(--greenColor));
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    to bottom,
+    var(--yellowColor),
+    var(--greenColor)
+  );
   border-image-slice: 1;
   transition: all 0.5s ease-in;
 }
 
 #fullScreen {
   position: absolute;
-  width: 100%;
-  min-height: 90vh;
+  width: 100vw;
+  min-height: 100vh;
   z-index: 1;
   top: 0;
   left: 0;
@@ -108,8 +75,8 @@ iframe {
 
 .fullScreen {
   position: absolute;
-  width: 100%;
-  min-height: 90vh;
+  width: calc(100% - 4px);
+  height: 100%;
   z-index: 1;
   top: 0;
   left: 0;
@@ -124,7 +91,7 @@ iframe {
   background-repeat: no-repeat;
   border: none;
   border-radius: 3px;
-  z-index: 10;
+  z-index: 20;
   transform: scale(1);
   transition: transform 0.3s ease-in;
 }
@@ -142,16 +109,16 @@ iframe {
 .githubButton {
   bottom: 20px;
   right: 80px;
-  background-image: url("/images/githubBlack.svg");
+  background-image: url("/src/assets/images/githubBlack.svg");
   background-size: 80%;
 }
 
 .buttonPlus {
-  background-image: url("/images/zoomIn.svg");
+  background-image: url("/src/assets/images/zoomIn.svg");
 }
 
 .buttonMinus {
-  background-image: url("/images/zoomOut.svg");
+  background-image: url("/src/assets/images/zoomOut.svg");
 }
 
 .iframeContainer button:hover {
@@ -167,6 +134,7 @@ iframe {
   font-size: 1.5rem;
   max-width: 70%;
   margin-block: 50px;
+  white-space: pre-wrap;
 }
 
 .projectStackContainer {
@@ -177,7 +145,7 @@ iframe {
 .projectStackContainer h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 3rem;
+  font-size: 2rem;
   text-wrap: nowrap;
 }
 
@@ -189,25 +157,16 @@ iframe {
   margin-top: 10px;
 }
 
-.stackList::before {
-  content: '';
-  position: absolute;
-  width: 40%;
-  height: 60%;
-  border-radius: 3px;
-  top: 0;
-  left: 0;
-  border-width: 20px 0 0 20px;
-  background: var(--cornerBordersColor);
-  clip-path: polygon(100% 0%, 100% 5px, 5px 5px, 5px 100%, 0% 100%, 0% 0%);
-}
-
 .stackList li {
   border-bottom: 3px solid;
-  border-image-source: linear-gradient(135deg, var(--yellowColor) 1%, var(--greenColor) 100%);
+  border-image-source: linear-gradient(
+    135deg,
+    var(--yellowColor) 1%,
+    var(--greenColor) 100%
+  );
   border-image-slice: 1;
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   transform: scale(1);
   transition: transform 0.3s ease-in;
 }
@@ -215,10 +174,23 @@ iframe {
 @media screen and (max-width: 800px) {
   .projectContainer {
     min-width: 90%;
+    margin-top: 80px;
+  }
+
+  .iframeContainer {
+    min-height: calc(100% - 80px);
+    z-index: 20;
+  }
+
+  #fullscreen {
+    min-height: 100%;
+    top: 80px;
   }
 
   .fullScreen {
     width: 99%;
+    height: 100%;
+    top: 80px;
   }
 
   .bottomSection {

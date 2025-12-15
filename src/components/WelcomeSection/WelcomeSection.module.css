@@ -1,0 +1,126 @@
+.welcomeSection {
+  display: flex;
+}
+
+.infoContainer {
+  position: relative;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 4rem;
+    font-family: 'poppins bold', 'Inter';
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-family: 'Inter';
+  }
+}
+
+.infoContainer h1 {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.infoContainer h2 {
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.nameGear {
+  position: absolute;
+  bottom: 30px;
+  left: -30px;
+  width: 100px;
+  height: auto;
+  animation-name: spinning;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+
+.imageContainer {
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.selfie {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.homePageImage1, .homePageImage2 {
+  height: auto;
+  max-width: 300px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.homePageImage1 {
+  top: -150px;
+  right: -20px;
+  rotate: -12deg;
+  width: 200px;
+  animation-name: spinning;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+
+.homePageImage2 {
+  top: -35px;
+  right: -70px;
+  width: 150px;
+  animation-name: spinning;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+
+@media screen and (max-width: 750px) {
+  .welcomeSection {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .imageContainer {
+   display: flex;
+   justify-content: center;
+  }
+
+  .selfie {
+    width: 100%;
+    height: 100%;
+  }
+}

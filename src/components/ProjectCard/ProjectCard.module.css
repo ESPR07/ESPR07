@@ -1,0 +1,152 @@
+/* Project Card */
+.projectCard,
+.projectCardHome {
+  background: var(--boxColor);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(90, 191, 216, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.projectCardHome {
+  width: 90%;
+}
+
+.projectCard:hover, .projectCardHome:hover {
+  transform: translateY(-8px);
+  border-color: var(--elementColor);
+  box-shadow: 0 12px 40px rgba(90, 191, 216, 0.3);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.projectCard:hover .projectImage {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--backgroundColor) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.tag {
+  background: var(--elementColor);
+  color: var(--backgroundColor);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Project Content */
+.projectContent {
+  padding: 25px;
+}
+
+.projectTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 15px;
+  color: var(--mainHeaders);
+  white-space: nowrap;
+}
+
+.projectDescription {
+  color: var(--textColor);
+  line-height: 1.6;
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Tech Stack */
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.techBadge {
+  background: rgba(90, 191, 216, 0.15);
+  color: var(--elementColor);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(90, 191, 216, 0.3);
+}
+
+/* Buttons */
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  text-align: center;
+  align-content: center;
+  flex: 1;
+}
+
+.btnPrimary {
+  background: var(--elementColor);
+  color: var(--backgroundColor);
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(90, 191, 216, 0.4);
+  opacity: 0.9;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--elementColor);
+  border: 2px solid var(--elementColor);
+}
+
+.btnSecondary:hover {
+  background: rgba(90, 191, 216, 0.1);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .buttonGroup {
+    flex-direction: column;
+  }
+}

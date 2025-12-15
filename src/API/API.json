@@ -1,0 +1,272 @@
+{
+  "info": {
+    "name": "Sindre S Derås",
+    "description": "Hi, I'm a passionate and newly educated developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. \n\n My journey in front-end development has equipped me with a solid foundation in HTML, CSS, and JavaScript, as well as front-end frameworks and tools and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. \n\n In Later time I've starting broadening my skillsets to not only create visually appealing and responsive front end but also work with back end API's and databases. \n\n Let's create something amazing together!",
+    "picture": ""
+  },
+  "socials": {
+    "Linkedin": "https://www.linkedin.com/in/sindre-str%C3%B8ms%C3%A6ther-der%C3%A5s-212353249/",
+    "Github": "https://github.com/ESPR07",
+    "Email": "mailto:sindre.stromsaether@gmail.com"
+  },
+  "skills": {
+    "design": [
+      {
+        "skill": "Figma",
+        "logo": "/src/assets/images/figma.svg",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "skill": "Photoshop",
+        "logo": "/src/assets/images/photoshop.svg",
+        "link": "https://www.adobe.com/no/products/photoshop.html"
+      },
+      {
+        "skill": "Postman",
+        "logo": "/src/assets/images/postman.svg",
+        "link": "https://www.postman.com/"
+      }
+    ],
+    "testing": [
+      {
+        "skill": "Netlify",
+        "logo": "/src/assets/images/netlify.svg",
+        "link": "https://www.netlify.com/"
+      },
+      {
+        "skill": "Wordpress",
+        "logo": "/src/assets/images/wordpress.svg",
+        "link": "https://wordpress.com/go/tutorials/what-is-a-cms/"
+      },
+      {
+        "skill": "Github",
+        "logo": "/src/assets/images/githubLogo.svg",
+        "link": "https://github.com/"
+      },
+      {
+        "skill": "Jest",
+        "logo": "/src/assets/images/jest.svg",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "skill": "Cypress",
+        "logo": "/src/assets/images/cypress.svg",
+        "link": "https://www.cypress.io/"
+      },
+      {
+        "skill": "Vitest",
+        "logo": "/src/assets/images/vitest.svg",
+        "link": "https://vitest.dev/"
+      }
+    ],
+    "coding": [
+      {
+        "skill": "Git",
+        "logo": "/src/assets/images/git.svg",
+        "link": "https://git-scm.com/"
+      },
+      {
+        "skill": "HTML5",
+        "logo": "/src/assets/images/html5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "skill": "CSS3",
+        "logo": "/src/assets/images/css3.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "skill": "Javascript",
+        "logo": "/src/assets/images/javascript.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "skill": "Bootstrap",
+        "logo": "/src/assets/images/bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "skill": "Sass",
+        "logo": "/src/assets/images/sass.svg",
+        "link": "https://sass-lang.com/"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "logo": "/src/assets/images/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "skill": "React",
+        "logo": "/src/assets/images/react.svg",
+        "link": "https://react.dev/"
+      },
+      {
+        "skill": "React Native",
+        "logo": "/src/assets/images/reactNative.svg",
+        "link": "https://reactnative.dev/"
+      },
+      {
+        "skill": "Typescript",
+        "logo": "/src/assets/images/typescript.svg",
+        "link": "https://www.typescriptlang.org/"
+      },
+      {
+        "skill": "Node JS",
+        "logo": "/src/assets/images/nodejs.svg",
+        "link": "https://nodejs.org/en"
+      },
+      {
+        "skill": "Express",
+        "logo": "/src/assets/images/expressjs.webp",
+        "link": "https://expressjs.com/"
+      },
+      {
+        "skill": "Python",
+        "logo": "/src/assets/images/python.svg",
+        "link": "https://www.python.org/"
+      },
+      {
+        "skill": "Java JDK",
+        "logo": "/src/assets/images/java.svg",
+        "link": "https://www.java.com/en/"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Helene's Portfolio",
+      "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in.\n\nThis page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
+      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "tag": "Portfolio",
+      "image_url": "https://i.postimg.cc/GhK8d41J/helene_Portfolio.webp",
+      "link": "https://helenevolle.com",
+      "mainColor": "#4E2D0D",
+      "buttonColor": "#F1E3D4",
+      "tech": [
+        {
+          "skill": "HTML/CSS"
+        },
+        {
+          "skill": "Javascript"
+        },
+        {
+          "skill": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Holidaze",
+      "description": "For my final exam project, I developed an accommodation booking website, starting with detailed planning using a Kanban board and Gantt chart to manage tasks and timelines. The design phase involved creating a prototype in Figma, focusing on a user-friendly interface and seamless experience. Once the prototype was finalized, I moved to development, coding the website to meet the required user stories and ensuring full functionality. After testing, I successfully deployed the site, making it publicly accessible. This project gave me valuable experience in front-end development, project management, and user experience design. It also earned me an A grade, reflecting the quality and effort I put into the project.",
+      "github": "https://github.com/ESPR07/project-exam-2",
+      "tag": "Accomadation",
+      "image_url": "https://i.postimg.cc/RVd64WzL/holidaze.webp",
+      "link": "https://holidaze-sindre.netlify.app/",
+      "mainColor": "#8A4630",
+      "buttonColor": "#FC8059",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
+        }
+      ]
+    },
+    {
+      "title": "Checkout",
+      "description": "For this project, I built an e-commerce checkout page using React, with a focus on exploring modern tools and libraries commonly used in the React ecosystem. I implemented React Form Hook for handling form validations, Styled Components for styling, and React Router DOM for navigation between pages. The project was also developed with TypeScript for better type safety and maintainability. I made sure to apply modular CSS practices to keep the codebase clean and scalable. This hands-on experience not only enhanced my React and TypeScript skills but also gave me a deeper understanding of the useful tools and techniques available in the ecosystem.",
+      "github": "https://github.com/ESPR07/js-framework",
+      "tag": "Ecommerce",
+      "image_url": "https://i.postimg.cc/L6DY2JMk/checkout_Page.webp",
+      "link": "https://checkoutsindre.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
+        }
+      ]
+    },
+    {
+      "title": "EclipseBid",
+      "description": "For this project, I created an auction site called EclipseBid using React and Tailwind CSS. The primary focus was to explore the utility-first CSS framework, Tailwind, to quickly style the interface while maintaining responsiveness and clean code. I implemented core auction features such as bidding, timers, and item listings. The use of Tailwind allowed for rapid development and a streamlined design process, while React handled the dynamic content and state management. The site’s clean, modern design and efficient user interface were key goals, and Tailwind helped achieve this with minimal custom CSS. This project enhanced my skills in both React and Tailwind, allowing me to deliver a polished, functional application.",
+      "github": "https://github.com/ESPR07/semester-project-2",
+      "tag": "Auction",
+      "image_url": "https://i.postimg.cc/X7LG4r0f/eclipsebid.webp",
+      "link": "https://eclipsebid.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Typescript"
+        },
+        {
+          "skill": "REST API"
+        }
+      ]
+    },
+    {
+      "title": "TechPost",
+      "description": "The 1st year Project Exam was the biggest delivery we had during the first year. It involved creating a full blog site of our choice from the ground up and it have to include at least 12 blog posts on the back end, a carousel for latest blogs and image modals as well as everything we've learned during the first year. We had 5 weeks to complete this exam.",
+      "github": "https://github.com/ESPR07/Project-Exam-1",
+      "tag": "Blog Post",
+      "image_url": "https://i.postimg.cc/d188Tf6y/tech-Post.webp",
+      "link": "https://techpost-projectexam.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "HTML, CSS & Javascript"
+        },
+        {
+          "skill": "Headless Wordpress"
+        }
+      ]
+    },
+    {
+      "title": "Community Science Museum",
+      "description": "For the first semester project our assignment was to make a museum information web page. At this stage the main focus was on the HTML and CSS. Things like following DRY principle, making sure the site works on all devices and and testing WCAG compatibility.",
+      "github": "https://github.com/ESPR07/Noroff-Semester-Project-1",
+      "tag": "Infomercial",
+      "image_url": "https://i.postimg.cc/Qd3VFMwh/science-Museum.webp",
+      "link": "https://noroff-semester-project-1-sindre.netlify.app/",
+      "mainColor": "#2E4F4F",
+      "buttonColor": "#0E8388",
+      "tech": [
+        {
+          "skill": "Figma"
+        },
+        {
+          "skill": "HTML"
+        },
+        {
+          "skill": "CSS"
+        }
+      ]
+    }
+  ]
+}
