@@ -19,56 +19,62 @@ function ProjectPage() {
 
   if (filteredData) {
     return (
-      <section className={styles.projectContainer}>
-        <nav className={styles.topNav}>
-          <button
-            type="button"
-            title="Back Button"
-            onClick={() => {navigate("/")}}
-            aria-label="Back Button"
-          ></button>
-        </nav>
-        <article className={styles.projectInfo}>
-          <h1>{filteredData[0].title}</h1>
-          <div
-            className={styles.iframeContainer}
-            id={isFullScreen ? styles.fullScreen : ""}
-          >
-            <iframe
-              src={filteredData[0].link}
-              className={isFullScreen ? styles.fullScreen : ""}
-            />
+      <>
+        <title>{`${filteredData[0].title} | Sindre Strømsæther Derås`}</title>
+        <meta name="description" content={`This is the info about ${filteredData[0].title}`}/>
+        <section className={styles.projectContainer}>
+          <nav className={styles.topNav}>
             <button
               type="button"
-              className={`${styles.fullscreenButton} ${
-                isFullScreen ? styles.buttonMinus : styles.buttonPlus
-              }`}
-              onClick={changeFullscreen}
-              title="Fullscreen Button"
-              aria-label="Fullscreen Button"
+              title="Back Button"
+              onClick={() => {
+                navigate("/");
+              }}
+              aria-label="Back Button"
             ></button>
-            <a href={filteredData[0].github} target="_blank">
+          </nav>
+          <article className={styles.projectInfo}>
+            <h1>{filteredData[0].title}</h1>
+            <div
+              className={styles.iframeContainer}
+              id={isFullScreen ? styles.fullScreen : ""}
+            >
+              <iframe
+                src={filteredData[0].link}
+                className={isFullScreen ? styles.fullScreen : ""}
+              />
               <button
                 type="button"
-                className={styles.githubButton}
-                title="Open Github"
-                aria-label="Open Github"
+                className={`${styles.fullscreenButton} ${
+                  isFullScreen ? styles.buttonMinus : styles.buttonPlus
+                }`}
+                onClick={changeFullscreen}
+                title="Fullscreen Button"
+                aria-label="Fullscreen Button"
               ></button>
-            </a>
-          </div>
-          <section className={styles.bottomSection}>
-            <p>{filteredData[0].description}</p>
-            <article className={styles.projectStackContainer}>
-              <h2>Tech Stack</h2>
-              <ul className={styles.stackList}>
-                {filteredData[0].tech.map((tech) => {
-                  return <li key={tech.skill}>{tech.skill}</li>;
-                })}
-              </ul>
-            </article>
-          </section>
-        </article>
-      </section>
+              <a href={filteredData[0].github} target="_blank">
+                <button
+                  type="button"
+                  className={styles.githubButton}
+                  title="Open Github"
+                  aria-label="Open Github"
+                ></button>
+              </a>
+            </div>
+            <section className={styles.bottomSection}>
+              <p>{filteredData[0].description}</p>
+              <article className={styles.projectStackContainer}>
+                <h2>Tech Stack</h2>
+                <ul className={styles.stackList}>
+                  {filteredData[0].tech.map((tech) => {
+                    return <li key={tech.skill}>{tech.skill}</li>;
+                  })}
+                </ul>
+              </article>
+            </section>
+          </article>
+        </section>
+      </>
     );
   }
 }
