@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  background-color: var(--backgroundColor);
 }
 
 .pageLinks {
@@ -191,22 +192,20 @@
     top: 80px;
     right: 0;
     width: 100%;
-    max-width: 300px;
     height: auto;
     flex-direction: column;
     gap: 0;
     background: var(--boxColor);
-    border-left: 2px solid var(--elementColor);
     border-bottom: 2px solid var(--elementColor);
     padding: 20px 0;
-    transform: translateX(100%);
+    transform: translateY(-99%);
     transition: transform 0.3s ease;
     box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.2);
-    z-index: 10;
+    z-index: -10;
   }
 
   .pageLinks.open {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   .pageLink {
@@ -214,6 +213,7 @@
     padding: 15px 30px;
     font-size: 1.3rem;
     border-bottom: none;
+    text-decoration: underline;
   }
 
   .pageLink:hover {
@@ -240,10 +240,6 @@
 @media (max-width: 480px) {
   .navbar {
     padding-inline: 15px;
-  }
-
-  .pageLinks {
-    max-width: 250px;
   }
 
   .pageLink {
