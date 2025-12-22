@@ -67,7 +67,7 @@ iframe {
 #fullScreen {
   position: absolute;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   z-index: 1;
   top: 0;
   left: 0;
@@ -87,8 +87,6 @@ iframe {
   height: 50px;
   width: 50px;
   background-color: var(--zoomButton);
-  background-position: center;
-  background-repeat: no-repeat;
   border: none;
   border-radius: 3px;
   z-index: 20;
@@ -102,23 +100,22 @@ iframe {
 
 .fullscreenButton {
   background-size: contain;
+  align-content: center;
   bottom: 20px;
   right: 20px;
+
+  svg {
+    color: var(--elementColor);
+  }
 }
 
 .githubButton {
   bottom: 20px;
   right: 80px;
-  background-image: url("/assets/images/githubBlack.svg");
-  background-size: 80%;
-}
 
-.buttonPlus {
-  background-image: url("/assets/images/zoomIn.svg");
-}
-
-.buttonMinus {
-  background-image: url("/assets/images/zoomOut.svg");
+  svg {
+    color: var(--elementColor);
+  }
 }
 
 .iframeContainer button:hover {
@@ -174,7 +171,7 @@ iframe {
 @media screen and (max-width: 800px) {
   .projectContainer {
     min-width: 90%;
-    margin-top: 80px;
+    margin-top: 100px;
   }
 
   .iframeContainer {
@@ -207,5 +204,6 @@ iframe {
 
   .iframeContainer {
     min-height: 300px;
+    z-index: 1;
   }
 }

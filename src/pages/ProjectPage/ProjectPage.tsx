@@ -2,6 +2,8 @@ import { useContext, useState } from "react";
 import styles from "./ProjectPage.module.css";
 import { dataContext } from "../../App";
 import { useNavigate, useParams } from "react-router";
+import FullScreenIcon from "../../components/SVGComponents/FullScreenIcon";
+import GithubIcon from "../../components/SVGComponents/GithubIcon";
 
 function ProjectPage() {
   const [isFullScreen, setIsFullScreen] = useState<boolean>(false);
@@ -45,20 +47,18 @@ function ProjectPage() {
               />
               <button
                 type="button"
-                className={`${styles.fullscreenButton} ${
-                  isFullScreen ? styles.buttonMinus : styles.buttonPlus
-                }`}
+                className={`${styles.fullscreenButton}`}
                 onClick={changeFullscreen}
                 title="Fullscreen Button"
                 aria-label="Fullscreen Button"
-              ></button>
+              > <FullScreenIcon isFullScreen={isFullScreen}/></button>
               <a href={filteredData[0].github} target="_blank">
                 <button
                   type="button"
                   className={styles.githubButton}
                   title="Open Github"
                   aria-label="Open Github"
-                ></button>
+                ><GithubIcon/></button>
               </a>
             </div>
             <section className={styles.bottomSection}>
