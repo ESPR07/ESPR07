@@ -136,7 +136,7 @@
     {
       "title": "LT Kunstsmykker",
       "description": "I built a sleek, fully custom online store for a jewelry designer, combining a smooth shopping experience with a powerful admin dashboard. Customers can browse, customize, and purchase products with a full checkout flow via Stripe, while the client can manage products, orders, categories, and unique features like a “make your own” jewelry option. \n\nTech highlights: React, TypeScript, Vite, Netlify Functions, Supabase, Stripe Elements, Vitest.\n\nA project that balances beautiful design, usability, and custom functionality, tailored entirely to the client’s business needs.",
-      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "github": "https://github.com/ESPR07/line-trises-smykkebod",
       "tag": ["Ecommerce", "Comission"],
       "image_url": "https://i.postimg.cc/vZfgb3s4/ltkunstsmykker-Screengrab.png",
       "link": "https://www.ltkunstsmykker.no",
