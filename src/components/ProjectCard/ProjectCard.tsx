@@ -5,7 +5,7 @@ type ProjectResponse = {
   title: string;
   description: string;
   github: string;
-  tag: string;
+  tag: string[];
   image_url: string;
   link: string;
   mainColor: string;
@@ -13,7 +13,7 @@ type ProjectResponse = {
   tech: [
     {
       skill: string;
-    }
+    },
   ];
 };
 
@@ -25,6 +25,8 @@ function ProjectCard({
   normal?: boolean;
 }) {
   const navigate = useNavigate();
+
+  console.log(project.tag);
 
   if (normal) {
     return (
@@ -42,7 +44,11 @@ function ProjectCard({
             className={style.projectImage}
           />
           <div className={style.overlay}>
-            <span className={style.tag}>{project.tag}</span>
+            {project.tag.map((tag, index) => (
+              <span key={index} className={style.tagStyle}>
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
 
@@ -102,12 +108,16 @@ function ProjectCard({
           className={style.projectImage}
         />
         <div className={style.overlay}>
-          <span className={style.tag}>{project.tag}</span>
+          {project.tag.map((tag, i) => (
+            <span key={i} className={style.techBadge}>
+              {tag}
+            </span>
+          ))}
         </div>
       </div>
 
       <div className={style.projectContent}>
-        <h2 className={style.projectTitle}>{project.title.substring(0, 15)}</h2>
+        <h2 className={style.projectTitle}>{project.title}</h2>
 
         <div className={style.buttonGroup}>
           <a

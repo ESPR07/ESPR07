@@ -37,7 +37,7 @@ export type Response = {
       "title": string,
       "description": string,
       "github": string,
-      "tag": string,
+      "tag": string[],
       "image_url": string
       "link": string,
       "mainColor": string,

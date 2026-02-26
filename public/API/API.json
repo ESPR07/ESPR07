@@ -134,10 +134,34 @@
   },
   "projects": [
     {
+      "title": "LT Kunstsmykker",
+      "description": "I built a sleek, fully custom online store for a jewelry designer, combining a smooth shopping experience with a powerful admin dashboard. Customers can browse, customize, and purchase products with a full checkout flow via Stripe, while the client can manage products, orders, categories, and unique features like a “make your own” jewelry option. \n\nTech highlights: React, TypeScript, Vite, Netlify Functions, Supabase, Stripe Elements, Vitest.\n\nA project that balances beautiful design, usability, and custom functionality, tailored entirely to the client’s business needs.",
+      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "tag": ["Ecommerce", "Comission"],
+      "image_url": "https://i.postimg.cc/vZfgb3s4/ltkunstsmykker-Screengrab.png",
+      "link": "https://www.ltkunstsmykker.no",
+      "mainColor": "#4E2D0D",
+      "buttonColor": "#F1E3D4",
+      "tech": [
+        {
+          "skill": "React"
+        },
+        {
+          "skill": "Vitest"
+        },
+        {
+          "skill": "Supabase"
+        },
+        {
+          "skill": "Stripe"
+        }
+      ]
+    },
+    {
       "title": "Helene's Portfolio",
       "description": "This is a comission for a portfolio page by an artist called Helene Volle. She was in need of a page that could be delivered with her application for an art school. The project is connected to a firebase database and has a fully developed backend UI with authentication where Helene can not only control which images should be displayed in projects, but also the positioning, sizing and alignments of the images as well as a image text. She can also add, delete and edit projects and control which order they should be displayed in.\n\nThis page was made in a about a week in collaberation with Ingvild Kirkaune Sandven.",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
-      "tag": "Portfolio",
+      "tag": ["Portfolio", "Comission"],
       "image_url": "https://i.postimg.cc/GhK8d41J/helene_Portfolio.webp",
       "link": "https://helenevolle.com",
       "mainColor": "#4E2D0D",
@@ -158,7 +182,7 @@
       "title": "Holidaze",
       "description": "For my final exam project, I developed an accommodation booking website, starting with detailed planning using a Kanban board and Gantt chart to manage tasks and timelines. The design phase involved creating a prototype in Figma, focusing on a user-friendly interface and seamless experience. Once the prototype was finalized, I moved to development, coding the website to meet the required user stories and ensuring full functionality. After testing, I successfully deployed the site, making it publicly accessible. This project gave me valuable experience in front-end development, project management, and user experience design. It also earned me an A grade, reflecting the quality and effort I put into the project.",
       "github": "https://github.com/ESPR07/project-exam-2",
-      "tag": "Accomadation",
+      "tag": ["Accommodation", "School"],
       "image_url": "https://i.postimg.cc/RVd64WzL/holidaze.webp",
       "link": "https://holidaze-sindre.netlify.app/",
       "mainColor": "#8A4630",
@@ -182,7 +206,7 @@
       "title": "Checkout",
       "description": "For this project, I built an e-commerce checkout page using React, with a focus on exploring modern tools and libraries commonly used in the React ecosystem. I implemented React Form Hook for handling form validations, Styled Components for styling, and React Router DOM for navigation between pages. The project was also developed with TypeScript for better type safety and maintainability. I made sure to apply modular CSS practices to keep the codebase clean and scalable. This hands-on experience not only enhanced my React and TypeScript skills but also gave me a deeper understanding of the useful tools and techniques available in the ecosystem.",
       "github": "https://github.com/ESPR07/js-framework",
-      "tag": "Ecommerce",
+      "tag": ["Ecommerce", "School"],
       "image_url": "https://i.postimg.cc/L6DY2JMk/checkout_Page.webp",
       "link": "https://checkoutsindre.netlify.app/",
       "mainColor": "#2E4F4F",
@@ -206,7 +230,7 @@
       "title": "EclipseBid",
       "description": "For this project, I created an auction site called EclipseBid using React and Tailwind CSS. The primary focus was to explore the utility-first CSS framework, Tailwind, to quickly style the interface while maintaining responsiveness and clean code. I implemented core auction features such as bidding, timers, and item listings. The use of Tailwind allowed for rapid development and a streamlined design process, while React handled the dynamic content and state management. The site’s clean, modern design and efficient user interface were key goals, and Tailwind helped achieve this with minimal custom CSS. This project enhanced my skills in both React and Tailwind, allowing me to deliver a polished, functional application.",
       "github": "https://github.com/ESPR07/semester-project-2",
-      "tag": "Auction",
+      "tag": ["Auction", "School"],
       "image_url": "https://i.postimg.cc/X7LG4r0f/eclipsebid.webp",
       "link": "https://eclipsebid.netlify.app/",
       "mainColor": "#2E4F4F",
@@ -230,7 +254,7 @@
       "title": "TechPost",
       "description": "The 1st year Project Exam was the biggest delivery we had during the first year. It involved creating a full blog site of our choice from the ground up and it have to include at least 12 blog posts on the back end, a carousel for latest blogs and image modals as well as everything we've learned during the first year. We had 5 weeks to complete this exam.",
       "github": "https://github.com/ESPR07/Project-Exam-1",
-      "tag": "Blog Post",
+      "tag": ["Blog Post", "School"],
       "image_url": "https://i.postimg.cc/d188Tf6y/tech-Post.webp",
       "link": "https://techpost-projectexam.netlify.app/",
       "mainColor": "#2E4F4F",
@@ -248,10 +272,10 @@
       ]
     },
     {
-      "title": "Community Science Museum",
+      "title": "CSM",
       "description": "For the first semester project our assignment was to make a museum information web page. At this stage the main focus was on the HTML and CSS. Things like following DRY principle, making sure the site works on all devices and and testing WCAG compatibility.",
       "github": "https://github.com/ESPR07/Noroff-Semester-Project-1",
-      "tag": "Infomercial",
+      "tag": ["Infomercial", "School"],
       "image_url": "https://i.postimg.cc/Qd3VFMwh/science-Museum.webp",
       "link": "https://noroff-semester-project-1-sindre.netlify.app/",
       "mainColor": "#2E4F4F",
