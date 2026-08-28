@@ -43,7 +43,7 @@ function ProjectCard({
           />
           <div className={style.overlay}>
             {project.tag.map((tag, index) => (
-              <span key={index} className={style.tagStyle}>
+              <span key={index} className={style.techBadge}>
                 {tag}
               </span>
             ))}

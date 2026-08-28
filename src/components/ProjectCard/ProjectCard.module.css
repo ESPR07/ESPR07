@@ -55,17 +55,6 @@
   gap: 10px;
 }
 
-.tag {
-  background: var(--elementColor);
-  color: var(--backgroundColor);
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 /* Project Content */
 .projectContent {
   padding: 25px;
