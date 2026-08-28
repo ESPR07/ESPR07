@@ -1,7 +1,7 @@
-### Hi there 👋
-I'm a passionate and newly educated Front End Developer with a keen interest in creating dynamic and user-friendly web experiences. I thrive on learning new technologies and continuously improving my skills. 
+### Hi there, welcome to my workbench 👋
+I'm a passionate and creative developer with a keen interest in creating the best and most interesting digital solutions. I thrive on learning new technologies and continuously improving my skills and love hitting walls to overcome. 
 
-My journey in web development has equipped me with a solid foundation in HTML, CSS, and JavaScript, and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me exploring the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional websites that offer seamless user experiences. 
+My journey in web development has equipped me with a solid foundation in programming and a big curiosity for exploring new technologies and techniques, and I'm eager to apply my knowledge to real-world projects. When I'm not coding, you'll find me reading up on the latest industry trends, experimenting with new frameworks, or collaborating with fellow developers. My goal is to build visually appealing and highly functional solutions that offer seamless user experiences. 
 
 Let's create something amazing together!
 
@@ -40,11 +40,11 @@ Let's create something amazing together!
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 ## ⭐ Highlighted Projects
-- [Portfolio Page](https://sindrestromsaether.dev/)
-- [Holidaze Accommodation](https://holidaze-sindre.netlify.app/)
-- [Checkout ecommerse](https://checkoutsindre.netlify.app/)
-- [Eclipsebid Auction](https://eclipsebid.netlify.app)
-- [Helene Volle's Portfolio Page](https://helenevolle.com/)
+- [Project Github](https://github.com/ESPR07/line-trises-smykkebod) | [LT Kunstsmykker](https://www.ltkunstsmykker.no)
+- [Project Github](https://github.com/ESPR07/helene-volle-portfolio) | [Helene Volle's Portfolio Page](https://helenevolle.com/)
+- [Project Github](https://github.com/ESPR07/ESPR07) | [My Portfolio Page](https://sindrestromsaether.dev/)
+- [Project Github](https://github.com/ESPR07/project-exam-2) | [Holidaze Accommodation](https://holidaze-sindre.netlify.app/)
+- [Project Github](https://github.com/ESPR07/js-framework) | [Checkout ecommerse](https://checkoutsindre.netlify.app/)
 
 ## 📫 Socials
 <div id="badges">
