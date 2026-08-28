@@ -26,8 +26,6 @@ function ProjectCard({
 }) {
   const navigate = useNavigate();
 
-  console.log(project.tag);
-
   if (normal) {
     return (
       <div
