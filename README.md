@@ -40,11 +40,11 @@ Let's create something amazing together!
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 ## ⭐ Highlighted Projects
-- [Project Github](https://github.com/ESPR07/line-trises-smykkebod) | [LT Kunstsmykker](https://www.ltkunstsmykker.no)
-- [Project Github](https://github.com/ESPR07/helene-volle-portfolio) | [Helene Volle's Portfolio Page](https://helenevolle.com/)
-- [Project Github](https://github.com/ESPR07/ESPR07) | [My Portfolio Page](https://sindrestromsaether.dev/)
-- [Project Github](https://github.com/ESPR07/project-exam-2) | [Holidaze Accommodation](https://holidaze-sindre.netlify.app/)
-- [Project Github](https://github.com/ESPR07/js-framework) | [Checkout ecommerse](https://checkoutsindre.netlify.app/)
+- [Project Github](https://github.com/ESPR07/line-trises-smykkebod) | [Live Site](https://www.ltkunstsmykker.no) - LT Kunstsmykker
+- [Project Github](https://github.com/ESPR07/helene-volle-portfolio) | [Live Site](https://helenevolle.com/) - Helene Volle's Portfolio Page
+- [Project Github](https://github.com/ESPR07/ESPR07) | [Live Site](https://sindrestromsaether.dev/) - My own portfolio Page
+- [Project Github](https://github.com/ESPR07/project-exam-2) | [Live Site](https://holidaze-sindre.netlify.app/) - Holidaze Accommodation
+- [Project Github](https://github.com/ESPR07/js-framework) | [Live Site](https://checkoutsindre.netlify.app/) - Checkout Ecommerce
 
 ## 📫 Socials
 <div id="badges">
